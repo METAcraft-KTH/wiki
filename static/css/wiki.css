@@ -131,7 +131,7 @@ a.selflink { color: var(--text); font-weight: 600; pointer-events: none; }
 .missing-file { color: var(--new); }
 
 .columns { columns: 3 14em; }
-footer { color: var(--muted); font-size: .8rem; padding-top: 3rem; padding-bottom: 2rem; }
+footer, footer.wrap { color: var(--muted); font-size: .8rem; padding-top: 2rem; padding-bottom: 5rem; }
 
 @media (max-width: 960px) {
   .page-body.has-toc { display: block; }

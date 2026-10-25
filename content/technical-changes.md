@@ -4,7 +4,7 @@ date = 2026-10-25
 categories = ['Technical changes']
 +++
 
-Here's a list of **technical changes** that may be important for technical players to know, as it might affect your automated contraptions. Some of the features have been modified for optimization, quality-of-life or because we simply think it makes for better gameplay.
+Here's a list of **technical changes** that may be important for technical players to know, as it might affect your farms or automated contraptions. Some of the features have been modified for optimization, quality-of-life or because we simply think it makes for better gameplay.
 
 ## Anvils
 
@@ -13,10 +13,6 @@ Anvils don't increase the XP cost when repairing or renaming an item, and the ma
 ## Villager trading
 
 Villager trading uses [Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance), so you have to go to different biomes to get different trades.
-
-## Silenced mobs
-
-Mobs can be silenced by naming them "Silence me" with a name tag. This can be useful for, for example, secret bases.
 
 ## Nether portals
 
@@ -42,6 +38,8 @@ Parrots can be bred and healed with seeds.
 
 Tamed pets that are standing and leashed animals (or boats and everything they contain) will follow the player through portals.
 
-## Minecarts
+Leads can also be leashed from fences to fences, though this is a purely decorative change.
 
-Minecarts have had their speed increased from 8 blocks/second to 40 blocks/second. Using ice, packed ice or blue ice increases the speed by 5, 10 and 20 blocks/second respectively. If you need the old mechanics for, say, a machine, you can convert minecarts into "Slowcarts" by placing them alone in a crafting grid.
+## Faster minecarts
+
+Minecarts have had their speed increased from 8 blocks/second to 40 blocks/second. Using ice, packed ice or blue ice increases the speed by 5, 10 and 20 blocks/second respectively. If you need the old mechanics, you can convert minecarts into "Slowcarts" by placing them alone in a crafting grid.

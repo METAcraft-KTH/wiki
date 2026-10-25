@@ -1,37 +1,33 @@
 +++
 title = 'Features'
 date = 2026-10-25
-categories = ['Features', 'Technical changes', 'Decorative changes', 'World generation']
+categories = ['Features', 'World generation']
 +++
 
-# Technical changes
+The world of METAcraft has many new exciting features compared to the usual, vanilla Minecraft experience. This page will list all of them, but a select few are hidden unannounced features that you will need to discover on your own by playing.
 
-See [Technical changes](/technical-changes).
+This page only lists **additions**, but there are also several vanilla things we've tweaked. You should read through the [technical changes](/technical-changes).
 
-# Decorative changes
+## Chapter color dyes
 
-Here are the changes we made that do not affect technical players.
+Three new dyes have been added to the game: **Cerise**, **Laser Violet** and a secret animated dye. They can be used on all the blocks that other dyes can, including but not limited to wool, glass, concrete, beds, glazed terracottas, leather armor and candles.
 
-## Chapter colors
+### Obtaining
 
-Cerise and Laser Violet have been added to the game, and can be used on all the blocks that other dyes can. They can only be acquired from Sniffers, so get brushing!
+The dyes are obtained from matching flowers, which can only be acquired from Sniffers.
 
-## Statues
+## Student overalls
+
+Main page: [Ovve](/ovve)
+
+## Armor stand statues
 
 Armor stands can be configured into different poses! More info on how to do it will arrive soon.
 
-## Mob heads
+## Custom heads
 
-All mobs have a chance to drop their head when killed by a player. [Exact probabilities.](https://wiki.vanillatweaks.net/More_Mob_Heads)
+Players always drop their head when killed by another player, and all mobs have a chance to drop their head when killed by a player. [See exact probabilities here.](https://wiki.vanillatweaks.net/More_Mob_Heads)
 
-## Player heads
+**Wandering Traders** will also sell custom mini-blocks you can use to decorate your builds.
 
-Players always drop their head when killed by another player.
-
-## Wandering Traders
-
-Wandering Traders sell custom mini-blocks you can use to decorate your builds.
-
-## World generation
-
-World generation uses the datapacks [Geophilic](https://modrinth.com/datapack/geophilic) and [Tectonic](https://modrinth.com/datapack/tectonic) with some private modifications. They give the world a more unique feel without affecting gameplay or progression.
+For additional custom heads, there is a database of heads that you will be able to access by trading in mob heads. More information on this soon.

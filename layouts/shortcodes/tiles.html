@@ -3,7 +3,7 @@
 {{- range slice
   (dict "n" "Features" "i" "✨" "u" "/features/")
   (dict "n" "Items" "i" "🗡️" "u" "/categories/items/")
-  (dict "n" "World generation" "i" "🌍" "u" "/categories/world-generation/")
+  (dict "n" "World generation" "i" "🌍" "u" "/world-generation/")
   (dict "n" "Technical changes" "i" "⚙️" "u" "/technical-changes/") }}
 <a href="{{ .u }}"><span class="tile-icon">{{ .i }}</span><span class="tile-name">{{ .n }}</span></a>
 {{- end }}
