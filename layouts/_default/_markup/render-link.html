@@ -1,0 +1,15 @@
+{{- /* Internal links to pages that don't exist render as red links, like MediaWiki. */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $href := .Destination -}}
+{{- $class := "" -}}
+{{- if $u.IsAbs -}}
+  {{- $class = "external" -}}
+{{- else if and $u.Path (in (slice "" ".md") (path.Ext $u.Path)) -}}
+  {{- with .Page.GetPage $u.Path -}}
+    {{- $href = .RelPermalink -}}{{- with $u.Fragment -}}{{- $href = printf "%s#%s" $href . -}}{{- end -}}
+  {{- else -}}
+    {{- $class = "new" -}}
+  {{- end -}}
+{{- end -}}
+<a href="{{ $href }}"{{ with $class }} class="{{ . }}"{{ end }}{{ if eq $class "new" }} title="{{ $.Text | plainify }} (page does not exist)"{{ else if .Title }} title="{{ .Title }}"{{ end }}{{ if eq $class "external" }} rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /**/ -}}

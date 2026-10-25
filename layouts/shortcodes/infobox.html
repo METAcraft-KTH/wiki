@@ -1,0 +1,21 @@
+{{- /*
+Usage:
+{{< infobox title="Iron Sword" image="/images/iron-sword.svg" caption="An iron sword" >}}
+## Section header
+Label | Value (markdown allowed)
+{{< /infobox >}}
+*/ -}}
+<table class="infobox">
+<tr><th colspan="2" class="infobox-title">{{ .Get "title" | default .Page.Title }}</th></tr>
+{{- with .Get "image" }}
+<tr><td colspan="2" class="infobox-image"><img src="{{ . | relURL }}" alt="{{ $.Get "title" | default $.Page.Title }}">
+{{- with $.Get "caption" }}<div class="infobox-caption">{{ . | markdownify }}</div>{{ end }}</td></tr>
+{{- end }}
+{{- range split (trim .Inner "\n") "\n" }}{{ $l := trim . " \t\r" }}
+  {{- if hasPrefix $l "## " }}
+<tr><th colspan="2" class="infobox-header">{{ substr $l 3 | markdownify }}</th></tr>
+  {{- else }}{{ with findRESubmatch `^(.*?)\s*\|\s*(.*)$` $l 1 }}{{ $m := index . 0 }}
+<tr><th scope="row">{{ index $m 1 | markdownify }}</th><td>{{ index $m 2 | markdownify }}</td></tr>
+  {{- end }}{{ end }}
+{{- end }}
+</table>

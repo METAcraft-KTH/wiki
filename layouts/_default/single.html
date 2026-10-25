@@ -1,0 +1,18 @@
+{{ define "main" }}
+<header class="page-heading">
+  <h1>{{ .Title }}</h1>
+  <div class="siteSub">From {{ site.Title }}</div>
+</header>
+{{ $toc := and (in .TableOfContents "<li>") (ne .Params.toc false) }}
+<div class="page-body{{ if $toc }} has-toc{{ end }}">
+  {{ if $toc }}<aside class="toc"><div class="toc-title">Contents</div>{{ .TableOfContents }}</aside>{{ end }}
+  <article class="content">
+    {{ .Content }}
+    {{ with .GetTerms "categories" }}
+    <div class="catlinks"><a href="{{ "/categories/" | relURL }}">Categories</a>
+      <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}

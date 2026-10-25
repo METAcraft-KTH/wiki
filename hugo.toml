@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Metacraft Wiki'
+
+[taxonomies]
+category = 'categories'
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+ordered = false
+
+[[menus.main]]
+name = 'Main page'
+url = '/'
+weight = 1
+[[menus.main]]
+name = 'All categories'
+url = '/categories/'
+weight = 2
+

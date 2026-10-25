@@ -1,0 +1,9 @@
+title = 'Weapons'
+
+[[groups]]
+name = 'Swords'
+pages = ['/weapons/copper-sword', '/weapons/iron-sword', '/weapons/diamond-sword']
+
+[[groups]]
+name = 'Ranged'
+pages = ['/weapons/bow', '/weapons/crossbow']

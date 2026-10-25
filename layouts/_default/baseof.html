@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.LanguageCode }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} – {{ end }}{{ site.Title }}</title>
+<link rel="stylesheet" href="{{ "css/wiki.css" | relURL }}">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav>
+      {{ range site.Sections.ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ range site.Menus.main }}{{ if ne .URL "/" }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}{{ end }}
+    </nav>
+  </div>
+</header>
+<main class="wrap">{{ block "main" . }}{{ end }}</main>
+<footer class="wrap">
+  {{ if .IsPage }}This page was last edited on {{ .Lastmod.Format "2 January 2006" }}.{{ end }}
+</footer>
+</body>
+</html>

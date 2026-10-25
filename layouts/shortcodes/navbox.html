@@ -1,0 +1,13 @@
+{{- /* Usage: {{< navbox "weapons" >}} reads data/navboxes/weapons.toml */ -}}
+{{- with index site.Data.navboxes (.Get 0) }}
+<table class="navbox">
+<tr><th colspan="2" class="navbox-title">{{ .title }}</th></tr>
+{{- range .groups }}
+<tr><th scope="row" class="navbox-group">{{ .name }}</th><td class="navbox-list"><ul>
+  {{- range .pages }}
+    {{- with site.GetPage . }}<li><a href="{{ .RelPermalink }}"{{ if eq . $.Page }} class="selflink"{{ end }}>{{ .LinkTitle }}</a></li>
+    {{- else }}<li><a class="new" title="Page does not exist">{{ path.Base . | humanize }}</a></li>{{ end }}
+  {{- end }}</ul></td></tr>
+{{- end }}
+</table>
+{{- else }}{{ errorf "navbox %q not found in data/navboxes: %s" (.Get 0) .Position }}{{ end }}
