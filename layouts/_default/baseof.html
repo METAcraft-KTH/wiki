@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if not .IsHome }}{{ .Title }} – {{ end }}{{ site.Title }}</title>
+<script>try{var t=localStorage.theme;if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="stylesheet" href="{{ "css/wiki.css" | relURL }}">
 </head>
 <body>
@@ -13,11 +14,36 @@
     <nav>
       {{ range site.Menus.main }}{{ if ne .URL "/" }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}{{ end }}
     </nav>
+    <div class="tools">
+      <div class="search">
+        <input type="search" id="q" placeholder="Search wiki…" aria-label="Search" autocomplete="off">
+        <ul id="results"></ul>
+      </div>
+      <button id="theme" type="button" aria-label="Toggle light/dark mode">◐</button>
+    </div>
   </div>
 </header>
 <main class="wrap">{{ block "main" . }}{{ end }}</main>
 <footer class="wrap">
   {{ if .IsPage }}This page was last edited on {{ .Lastmod.Format "2 January 2006" }}.{{ end }}
 </footer>
+<script>
+document.getElementById('theme').onclick=function(){
+  var d=document.documentElement,dark=d.dataset.theme?d.dataset.theme=='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  d.dataset.theme=dark?'light':'dark';
+  try{localStorage.theme=d.dataset.theme}catch(e){}
+};
+var q=document.getElementById('q'),out=document.getElementById('results'),idx;
+q.oninput=async function(){
+  idx=idx||await fetch('{{ "index.json" | relURL }}').then(r=>r.json());
+  var v=q.value.trim().toLowerCase();
+  out.innerHTML='';
+  if(!v)return;
+  idx.filter(p=>p.title.toLowerCase().includes(v)).slice(0,8).forEach(p=>{
+    var li=document.createElement('li'),a=document.createElement('a');
+    a.href=p.url;a.textContent=p.title;li.append(a);out.append(li);
+  });
+};
+</script>
 </body>
 </html>

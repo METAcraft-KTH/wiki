@@ -6,11 +6,17 @@
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme=light]) {
     --bg: #131417; --surface: #1c1e22; --surface-2: #262930; --text: #e6e8ec; --muted: #9aa0aa;
     --border: #33363d; --link: #8ab4f8; --new: #ff8a80;
   }
 }
+:root[data-theme=dark] {
+  --bg: #131417; --surface: #1c1e22; --surface-2: #262930; --text: #e6e8ec; --muted: #9aa0aa;
+  --border: #33363d; --link: #8ab4f8; --new: #ff8a80;
+  color-scheme: dark;
+}
+:root[data-theme=light] { color-scheme: light; }
 
 * { box-sizing: border-box; }
 html { scroll-padding-top: calc(var(--header-h) + 1rem); }
@@ -31,6 +37,19 @@ a.selflink { color: var(--text); font-weight: 600; pointer-events: none; }
 .site-header nav { display: flex; gap: 1.25rem; overflow-x: auto; font-size: .92rem; }
 .site-header nav a { color: var(--muted); white-space: nowrap; }
 .site-header nav a:hover { color: var(--text); text-decoration: none; }
+
+/* Search + theme toggle */
+.tools { margin-left: auto; display: flex; gap: .5rem; align-items: center; }
+.search { position: relative; }
+.search input { width: 12rem; max-width: 40vw; padding: .35rem .7rem; font: inherit; font-size: .9rem;
+  color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+.search ul { position: absolute; right: 0; top: 110%; width: 18rem; max-width: 90vw; margin: 0; padding: .25rem;
+  list-style: none; background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius); }
+.search ul:empty { display: none; }
+.search li a { display: block; padding: .35rem .6rem; border-radius: 4px; color: var(--text); }
+.search li a:hover { background: var(--surface-2); text-decoration: none; }
+#theme { font-size: 1.1rem; line-height: 1; padding: .35rem .5rem; cursor: pointer; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
 
 /* Page heading */
 .page-heading { padding: 2.5rem 0 1.5rem; border-bottom: 1px solid var(--border); margin-bottom: 2rem; }
