@@ -24,25 +24,25 @@ weight = 8
 
 [[menus.main]]
 name = 'Features'
-url = '/features/'
+url = '/categories/features/'
 weight = 2
 [[menus.main]]
 name = 'Items'
-url = '/items/'
+url = '/categories/items/'
 weight = 3
 [[menus.main]]
 name = 'Events'
-url = '/events/'
+url = '/categories/events/'
 weight = 4
 [[menus.main]]
 name = 'World generation'
-url = '/world-generation/'
+url = '/categories/world-generation/'
 weight = 5
 [[menus.main]]
 name = 'Technical changes'
-url = '/technical-changes/'
+url = '/categories/technical-changes/'
 weight = 6
 [[menus.main]]
 name = 'Decorative changes'
-url = '/decorative-changes/'
+url = '/categories/decorative-changes/'
 weight = 7

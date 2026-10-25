@@ -5,8 +5,10 @@
 <article class="content">
 {{ .Content }}
 {{ if not .IsHome }}
-<h2>Pages in {{ if eq .Kind "term" }}category{{ else }}section{{ end }} “{{ .Title }}”</h2>
-<p>The following {{ len .Pages }} page{{ if ne (len .Pages) 1 }}s are{{ else }} is{{ end }} listed here.</p>
+{{ if eq .Kind "term" }}
+<h2>Pages in category “{{ .Title }}”</h2>
+<p>The following {{ len .Pages }} page{{ if ne (len .Pages) 1 }}s are{{ else }} is{{ end }} in this category.</p>
+{{ end }}
 <ul class="columns">{{ range .Pages.ByTitle }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>
 {{ end }}
 </article>

@@ -1,7 +1,7 @@
 +++
 title = 'The Nether'
 date = 2026-10-24
-categories = ['Places', 'Dimensions']
+categories = ['World generation', 'Places', 'Dimensions']
 +++
 {{< infobox title="The Nether" >}}
 Type | Dimension

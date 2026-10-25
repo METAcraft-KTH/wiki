@@ -1,7 +1,7 @@
 +++
 title = 'Iron Sword'
 date = 2026-10-20
-categories = ['Weapons', 'Craftable items']
+categories = ['Items', 'Weapons', 'Craftable items']
 +++
 {{< infobox image="iron-sword.svg" caption="An iron sword in the inventory" >}}
 Type | Melee weapon

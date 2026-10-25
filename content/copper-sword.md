@@ -1,7 +1,7 @@
 +++
 title = 'Copper Sword'
 date = 2026-10-18
-categories = ['Weapons', 'Craftable items']
+categories = ['Items', 'Weapons', 'Craftable items']
 +++
 {{< infobox >}}
 Type | Melee weapon

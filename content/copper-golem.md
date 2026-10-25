@@ -1,7 +1,7 @@
 +++
 title = 'Copper Golem'
 date = 2026-10-22
-categories = ['Mobs', 'Neutral mobs']
+categories = ['Features', 'Mobs', 'Neutral mobs']
 +++
 {{< infobox >}}
 Health | 20 ♥
