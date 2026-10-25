@@ -18,7 +18,7 @@ By default, block entities cannot be moved by pistons, but **they can be made mo
 
 We're running the mod [Alternate Current](https://modrinth.com/mod/alternate-current) to make redstone much more efficient, but it *might* cause machines to behave unexpectedly. If this happens, let us know and we'll try to patch it.
 
-## Unlimited anvils
+## Unlimited anvil repairs
 
 Anvils don't increase the XP cost when repairing or renaming an item, and the maximum XP cost never goes above 39 levels. This means *Mending* is not a necessity like in vanilla, since there's no upper limit on how many times you can repair an item.
 
