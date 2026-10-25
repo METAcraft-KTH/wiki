@@ -3,7 +3,8 @@ title = 'Technical changes'
 date = 2026-10-25
 categories = ['Technical changes']
 +++
-Functional changes made to the METAcraft SMP compared to vanilla Minecraft. Want to add or remove features? Post on Discord in #general and we can bring it up in #polls!
+
+Here's a list of **technical changes** that may be important for technical players to know, as it might affect your automated contraptions. Some of the features have been modified for optimization, quality-of-life or because we simply think it makes for better gameplay.
 
 ## Anvils
 

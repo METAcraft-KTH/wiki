@@ -1,11 +1,10 @@
 {{- /* Main-page tile grid. Edit the list to change tiles. */ -}}
 <nav class="tiles">
 {{- range slice
-  (dict "n" "Features" "i" "✨" "u" "/categories/features/")
+  (dict "n" "Features" "i" "✨" "u" "/features/")
   (dict "n" "Items" "i" "🗡️" "u" "/categories/items/")
   (dict "n" "World generation" "i" "🌍" "u" "/categories/world-generation/")
-  (dict "n" "Technical changes" "i" "⚙️" "u" "/categories/technical-changes/")
-  (dict "n" "Decorative changes" "i" "🎨" "u" "/categories/decorative-changes/") }}
+  (dict "n" "Technical changes" "i" "⚙️" "u" "/technical-changes/") }}
 <a href="{{ .u }}"><span class="tile-icon">{{ .i }}</span><span class="tile-name">{{ .n }}</span></a>
 {{- end }}
 </nav>

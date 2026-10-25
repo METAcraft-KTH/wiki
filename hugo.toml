@@ -9,7 +9,7 @@ home = ['html', 'json']
 category = 'categories'
 
 [markup.tableOfContents]
-startLevel = 2
+startLevel = 1
 endLevel = 4
 ordered = false
 
@@ -24,7 +24,7 @@ weight = 8
 
 [[menus.main]]
 name = 'Features'
-url = '/categories/features/'
+url = '/features/'
 weight = 2
 [[menus.main]]
 name = 'Items'
@@ -36,9 +36,5 @@ url = '/categories/world-generation/'
 weight = 5
 [[menus.main]]
 name = 'Technical changes'
-url = '/categories/technical-changes/'
+url = '/technical-changes/'
 weight = 6
-[[menus.main]]
-name = 'Decorative changes'
-url = '/categories/decorative-changes/'
-weight = 7
