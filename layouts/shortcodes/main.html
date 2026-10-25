@@ -1,0 +1,2 @@
+{{- /* Usage: {{< main "Ovve" >}} or {{< main "Ovve" "Other page" >}} — wikilinks are resolved by partials/wikilinks.html */ -}}
+<div class="hatnote">Main article: {{ range $i, $p := .Params }}{{ if $i }}, {{ end }}[[{{ $p }}]]{{ end }}</div>

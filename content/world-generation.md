@@ -10,10 +10,9 @@ METAcraft typically uses custom worldgen datapacks. They give the world a more u
 
 ## Overworld
 
-The Overworld uses the datapacks [Geophilic](https://modrinth.com/datapack/geophilic) and [Tectonic](https://modrinth.com/datapack/tectonic) with some private modifications. On average, the biomes are 2.7x bigger than vanilla's biomes, with much taller mountains and slopes.
+The Overworld uses the datapacks [Geophilic](https://modrinth.com/datapack/geophilic), [Tectonic](https://modrinth.com/datapack/tectonic) and [Structory](https://modrinth.com/datapack/structory) with some private changes. On average, the biomes are 2.7x bigger than vanilla's biomes, with much taller mountains and slopes.
 
 The border is set to be 1000 x 1000 blocks at launch day and gradually expands in the first few weeks of the season.
-
 
 ## Nether
 
