@@ -31,4 +31,4 @@ Copper golems ignore players unless attacked. Over time they oxidize and eventua
 
 ## Combat
 
-An [Iron Sword](/weapons/iron-sword) kills one in seven hits.
+An [Iron Sword](iron-sword) kills one in seven hits.

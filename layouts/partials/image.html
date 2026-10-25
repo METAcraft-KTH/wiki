@@ -1,0 +1,13 @@
+{{- /* Renders an image from assets/images. Args: src, width (display px), alt */ -}}
+{{- $w := int (.width | default 250) -}}
+{{- with resources.Get (path.Join "images" .src) -}}
+  {{- $img := . -}}
+  {{- $raster := ne .MediaType.SubType "svg" -}}
+  {{- /* 2x width for hi-dpi screens; originals stay linked */ -}}
+  {{- if and $raster (gt .Width (mul $w 2)) }}{{ $img = .Resize (printf "%dx" (mul $w 2)) }}{{ end -}}
+  <a href="{{ .RelPermalink }}"><img src="{{ $img.RelPermalink }}" alt="{{ $.alt }}" loading="lazy"
+    {{- if $raster }} width="{{ $img.Width }}" height="{{ $img.Height }}"{{ end }}></a>
+{{- else -}}
+  {{- warnf "image %q not found in assets/images" .src -}}
+  <span class="missing-file">File:{{ .src }}</span>
+{{- end -}}

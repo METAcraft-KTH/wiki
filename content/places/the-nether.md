@@ -13,10 +13,12 @@ Hazards | Lava, Ghasts, fire
 
 ## Biomes
 
+{{< image src="example.png" caption="A typical Nether landscape. *(Placeholder image.)*" >}}
+
 - Nether Wastes
 - Crimson Forest
 - Soul Sand Valley
 
 ## Structures
 
-Chests in nether fortresses may contain an [Iron Sword](/weapons/iron-sword).
+Chests in nether fortresses may contain an [Iron Sword](iron-sword).

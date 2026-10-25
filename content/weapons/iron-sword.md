@@ -3,7 +3,7 @@ title = 'Iron Sword'
 date = 2026-10-20
 categories = ['Weapons', 'Craftable items']
 +++
-{{< infobox image="/images/iron-sword.svg" caption="An iron sword in the inventory" >}}
+{{< infobox image="iron-sword.svg" caption="An iron sword in the inventory" >}}
 Type | Melee weapon
 Rarity | Common
 Stackable | No
@@ -16,17 +16,17 @@ Station | Anvil
 Materials | 2 × Iron Ingot, 1 × Stick
 {{< /infobox >}}
 
-The **Iron Sword** is a melee weapon made from iron ingots. It is the most common sword wielded by players between the early and late game, and is famously effective against the [Copper Golem](/mobs/copper-golem).
+The **Iron Sword** is a melee weapon made from iron ingots. It is the most common sword wielded by players between the early and late game, and is famously effective against the [Copper Golem](copper-golem).
 
 ## Obtaining
 
 ### Crafting
 
-Iron swords are forged at an anvil from two iron ingots and a stick. See [Smithing](/mechanics/smithing) for the full recipe system.
+Iron swords are forged at an anvil from two iron ingots and a stick. See [Smithing](smithing) for the full recipe system.
 
 ### Loot
 
-Iron swords occasionally appear in chests in [The Nether](/places/the-nether).
+Iron swords occasionally appear in chests in [The Nether](the-nether).
 
 ## Usage
 

@@ -15,4 +15,17 @@
     {{ end }}
   </article>
 </div>
+{{ if $toc }}
+<script>
+  // Highlight the TOC entry for the section currently being read
+  const links = [...document.querySelectorAll('.toc a')];
+  const heads = links.map(a => document.getElementById(decodeURIComponent(a.hash.slice(1))));
+  const update = () => {
+    const i = heads.findLastIndex(h => h && h.getBoundingClientRect().top < 120);
+    links.forEach((a, j) => a.classList.toggle('active', j === i));
+  };
+  addEventListener('scroll', update, { passive: true });
+  update();
+</script>
+{{ end }}
 {{ end }}

@@ -5,7 +5,8 @@
 {{- if $u.IsAbs -}}
   {{- $class = "external" -}}
 {{- else if and $u.Path (in (slice "" ".md") (path.Ext $u.Path)) -}}
-  {{- with .Page.GetPage $u.Path -}}
+  {{- /* Relative path first, then site-wide by full path or unique file name */ -}}
+  {{- with or (.Page.GetPage $u.Path) (site.GetPage $u.Path) -}}
     {{- $href = .RelPermalink -}}{{- with $u.Fragment -}}{{- $href = printf "%s#%s" $href . -}}{{- end -}}
   {{- else -}}
     {{- $class = "new" -}}

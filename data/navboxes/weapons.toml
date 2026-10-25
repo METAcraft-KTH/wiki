@@ -2,8 +2,8 @@ title = 'Weapons'
 
 [[groups]]
 name = 'Swords'
-pages = ['/weapons/copper-sword', '/weapons/iron-sword', '/weapons/diamond-sword']
+pages = ['copper-sword', 'iron-sword', 'diamond-sword']
 
 [[groups]]
 name = 'Ranged'
-pages = ['/weapons/bow', '/weapons/crossbow']
+pages = ['bow', 'crossbow']

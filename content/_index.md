@@ -5,7 +5,7 @@ title = 'Main Page'
 
 ## Featured article
 
-The [Iron Sword](/weapons/iron-sword) is the workhorse melee weapon of the mid game. It is forged at an anvil and outclasses the [Copper Sword](/weapons/copper-sword) in every way except cost.
+The [Iron Sword](iron-sword) is the workhorse melee weapon of the mid game. It is forged at an anvil and outclasses the [Copper Sword](copper-sword) in every way except cost.
 
 ## Browse
 

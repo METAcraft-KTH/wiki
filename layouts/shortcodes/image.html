@@ -1,0 +1,10 @@
+{{- /*
+Usage: {{< image src="example.png" caption="A *caption*" align="right" width="250" alt="..." >}}
+align: right (default) | left | center | none. Files live in assets/images/.
+*/ -}}
+{{- $w := int (.Get "width" | default 250) -}}
+{{- $caption := .Get "caption" -}}
+<figure class="thumb thumb-{{ .Get "align" | default "right" }}" style="width: {{ $w }}px">
+  {{ partial "image.html" (dict "src" (.Get "src") "width" $w "alt" (.Get "alt" | default ($caption | markdownify | plainify))) }}
+  {{- with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>
