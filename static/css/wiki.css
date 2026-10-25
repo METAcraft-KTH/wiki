@@ -58,6 +58,8 @@ a.selflink { color: var(--text); font-weight: 600; pointer-events: none; }
 .page-heading .ns { color: var(--muted); font-weight: 400; }
 .siteSub { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
 
+.banner { display: block; width: 100%; height: auto; margin: 2rem 0; border-radius: var(--radius); }
+
 /* Body + sticky TOC */
 .page-body.has-toc { display: grid; grid-template-columns: minmax(0, 1fr) 15rem; gap: 3rem; align-items: start; }
 .page-body.has-toc .content { grid-column: 1; grid-row: 1; }

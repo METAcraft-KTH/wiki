@@ -1,7 +1,11 @@
 {{ define "main" }}
+{{ if .IsHome }}
+{{ with resources.Get "images/banner.png" }}<img class="banner" src="{{ (.Resize "1600x").RelPermalink }}" alt="{{ site.Title }}">{{ end }}
+{{ else }}
 <header class="page-heading">
   <h1>{{ if eq .Kind "term" }}<span class="ns">Category:</span>{{ end }}{{ .Title }}</h1>
 </header>
+{{ end }}
 <article class="content">
 {{ .Content }}
 {{ if not .IsHome }}
