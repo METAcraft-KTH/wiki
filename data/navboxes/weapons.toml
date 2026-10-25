@@ -1,9 +1,0 @@
-title = 'Weapons'
-
-[[groups]]
-name = 'Swords'
-pages = ['copper-sword', 'iron-sword', 'diamond-sword']
-
-[[groups]]
-name = 'Ranged'
-pages = ['bow', 'crossbow']

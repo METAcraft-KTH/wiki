@@ -31,10 +31,6 @@ name = 'Items'
 url = '/categories/items/'
 weight = 3
 [[menus.main]]
-name = 'Events'
-url = '/categories/events/'
-weight = 4
-[[menus.main]]
 name = 'World generation'
 url = '/categories/world-generation/'
 weight = 5
