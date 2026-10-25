@@ -14,31 +14,35 @@ Here's a list of **technical changes** that may be important for technical playe
 
 By default, block entities cannot be moved by pistons, but **they can be made movable** by crafting and using a [[wrench]].
 
-## Anvils
+## Redstone optimization
+
+We're running the mod [Alternate Current](https://modrinth.com/mod/alternate-current) to make redstone much more efficient, but it *might* cause machines to behave unexpectedly. If this happens, let us know and we'll try to patch it.
+
+## Unlimited anvils
 
 Anvils don't increase the XP cost when repairing or renaming an item, and the maximum XP cost never goes above 39 levels. This means *Mending* is not a necessity like in vanilla, since there's no upper limit on how many times you can repair an item.
 
-## Villager trading
+## Villager Trade Rebalance
 
 Villager trading uses [Villager Trade Rebalance](https://minecraft.wiki/w/Villager_Trade_Rebalance), so you have to go to different biomes to get different trades.
 
-## Nether portals
+## Nether portals at any size
 
 Nether portals can be activated in any size and shape you want, not just rectangular.
 
-## Sand
+## No TNT and sand duping
 
-Sand can be renewed by killing Husks (desert zombies), which now also spawn in Desert Temples.
+TNT and sand duping is patched, but sand can be renewed by killing Husks (desert zombies). They also spawn in Desert Temples.
 
-## Endermen
+## Endermen no griefing
 
 Endermen cannot pick up blocks.
 
-## Pets
+## Better pet management
 
 Pets cannot be hurt by their owner or other players the pet trusts. As the owner, you can choose which other players the pet should trust by sneaking and right-clicking the pet. If a pet trusts you, you can decide whether it should sit or stand, and the pet will never attack you.
 
-## Parrots
+## Breedable parrots
 
 Parrots can be bred and healed with seeds.
 
