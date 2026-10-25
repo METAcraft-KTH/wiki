@@ -11,7 +11,6 @@
   <div class="wrap">
     <a class="logo" href="{{ "/" | relURL }}">{{ site.Title }}</a>
     <nav>
-      {{ range site.Sections.ByTitle }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
       {{ range site.Menus.main }}{{ if ne .URL "/" }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}{{ end }}
     </nav>
   </div>

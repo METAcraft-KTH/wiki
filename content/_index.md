@@ -1,15 +1,6 @@
 +++
 title = 'Main Page'
 +++
-**Welcome to the Metacraft Wiki**, the knowledge base anyone can read. It currently has a handful of demo articles.
+Welcome to the single source of truth for all things [METAcraft](https://metacraft.se), the biggest Minecraft community on KTH!
 
-## Featured article
-
-The [Iron Sword](iron-sword) is the workhorse melee weapon of the mid game. It is forged at an anvil and outclasses the [Copper Sword](copper-sword) in every way except cost.
-
-## Browse
-
-- [Weapons](/weapons/)
-- [Mobs](/mobs/)
-- [Places](/places/)
-- [All categories](/categories/)
+{{< tiles >}}
