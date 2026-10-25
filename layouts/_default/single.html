@@ -7,7 +7,7 @@
 <div class="page-body{{ if $toc }} has-toc{{ end }}">
   {{ if $toc }}<aside class="toc"><div class="toc-title">Contents</div>{{ .TableOfContents }}</aside>{{ end }}
   <article class="content">
-    {{ .Content }}
+    {{ partial "wikilinks.html" . }}
     {{ with .GetTerms "categories" }}
     <div class="catlinks"><a href="{{ "/categories/" | relURL }}">Categories</a>
       <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}</ul>

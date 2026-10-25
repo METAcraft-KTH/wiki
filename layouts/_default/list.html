@@ -7,7 +7,7 @@
 </header>
 {{ end }}
 <article class="content">
-{{ .Content }}
+{{ partial "wikilinks.html" . }}
 {{ if not .IsHome }}
 {{ if eq .Kind "term" }}
 <h2>Pages in category “{{ .Title }}”</h2>

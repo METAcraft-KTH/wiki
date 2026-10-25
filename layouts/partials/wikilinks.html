@@ -1,0 +1,18 @@
+{{- /* Turns [[Page name]] / [[Page name|label]] into links; missing pages get the red "new" class. */ -}}
+{{- $c := .Content | string -}}
+{{- range findRE `\[\[[^\]|]+(\|[^\]]+)?\]\]` $c | uniq -}}
+  {{- $inner := strings.TrimSuffix "]]" (strings.TrimPrefix "[[" .) -}}
+  {{- $parts := split $inner "|" -}}
+  {{- $target := trim (index $parts 0) " " -}}
+  {{- $label := $target -}}
+  {{- if gt (len $parts) 1 }}{{ $label = trim (index $parts 1) " " }}{{ end -}}
+  {{- $slug := $target | urlize -}}
+  {{- $a := "" -}}
+  {{- with site.GetPage $slug -}}
+    {{- $a = printf `<a href="%s">%s</a>` .RelPermalink $label -}}
+  {{- else -}}
+    {{- $a = printf `<a href="%s" class="new" title="%s (page does not exist)">%s</a>` (printf "/%s/" $slug | relURL) $label $label -}}
+  {{- end -}}
+  {{- $c = replace $c . $a -}}
+{{- end -}}
+{{- $c | safeHTML -}}

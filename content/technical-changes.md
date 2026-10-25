@@ -6,9 +6,17 @@ categories = ['Technical changes']
 
 Here's a list of **technical changes** that may be important for technical players to know, as it might affect your farms or automated contraptions. Some of the features have been modified for optimization, quality-of-life or because we simply think it makes for better gameplay.
 
+## Nether roof
+
+**The Nether's world generation now goes up to Y=255**, meaning the Nether roof is effectively patched. For technical players, Bedrock is now considered non-solid blocks and will not affect mob spawn rates when building below it. See [[world generation]].
+
+## Movable block entities
+
+By default, block entities cannot be moved by pistons, but **they can be made movable** by crafting and using a [[wrench]].
+
 ## Anvils
 
-Anvils don't increase the XP cost when repairing or renaming an item, and the maximum XP cost never goes above 39 levels. This means *Mending* isn't as necessary as in vanilla, since there's no upper limit on how many times you can repair an item.
+Anvils don't increase the XP cost when repairing or renaming an item, and the maximum XP cost never goes above 39 levels. This means *Mending* is not a necessity like in vanilla, since there's no upper limit on how many times you can repair an item.
 
 ## Villager trading
 

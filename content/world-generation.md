@@ -8,16 +8,18 @@ METAcraft typically uses custom worldgen datapacks. They give the world a more u
 
 {{< image src="overworld.png" caption="The Overworld at sunset" width="350" >}}
 
-# Overworld
+## Overworld
 
-The Overworld uses the datapacks [Geophilic](https://modrinth.com/datapack/geophilic) and [Tectonic](https://modrinth.com/datapack/tectonic) with some private modifications. The border is set to be 1000 x 1000 blocks at launch and gradually expanding.
+The Overworld uses the datapacks [Geophilic](https://modrinth.com/datapack/geophilic) and [Tectonic](https://modrinth.com/datapack/tectonic) with some private modifications. On average, the biomes are 2.7x bigger than vanilla's biomes, with much taller mountains and slopes.
+
+The border is set to be 1000 x 1000 blocks at launch day and gradually expands in the first few weeks of the season.
 
 
-# Nether
+## Nether
 
-To be announced...
+**The Nether's world generation now goes up to Y=255**, meaning the Nether roof is effectively patched. For technical players, Bedrock is now considered non-solid blocks and will not affect mob spawn rates when building below it. See [[technical changes]].
 
-# End
+## End
 
 To be announced...
 

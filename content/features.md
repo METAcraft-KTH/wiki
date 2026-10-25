@@ -6,7 +6,7 @@ categories = ['Features', 'World generation']
 
 The world of METAcraft has many new exciting features compared to the usual, vanilla Minecraft experience. This page will list all of them, but a select few are hidden unannounced features that you will need to discover on your own by playing.
 
-This page only lists **additions**, but there are also several vanilla things we've tweaked. You should read through the [technical changes](/technical-changes).
+This page only lists **additions**, but there are also several vanilla things we've tweaked. You should read through the [[technical changes]].
 
 ## Chapter color dyes
 
@@ -18,7 +18,7 @@ The dyes are obtained from matching flowers, which can only be acquired from Sni
 
 ## Student overalls
 
-Main page: [Ovve](/ovve)
+Main page: [[Ovve]]
 
 ## Armor stand statues
 
