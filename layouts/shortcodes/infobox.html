@@ -8,7 +8,7 @@ Label | Value (markdown allowed)
 <table class="infobox">
 <tr><th colspan="2" class="infobox-title">{{ .Get "title" | default .Page.Title }}</th></tr>
 {{- with .Get "image" }}
-<tr><td colspan="2" class="infobox-image">{{ partial "image.html" (dict "src" . "width" 128 "alt" ($.Get "title" | default $.Page.Title)) }}
+<tr><td colspan="2" class="infobox-image">{{ partial "image.html" (dict "src" . "width" 300 "alt" ($.Get "title" | default $.Page.Title)) }}
 {{- with $.Get "caption" }}<div class="infobox-caption">{{ . | markdownify }}</div>{{ end }}</td></tr>
 {{- end }}
 {{- range split (trim .Inner "\n") "\n" }}{{ $l := trim . " \t\r" }}

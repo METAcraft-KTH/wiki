@@ -1,0 +1,21 @@
+title = "METAcraft Season 6"
+
+[[groups]]
+name = "Mechanics"
+pages = ["/rift-raids", "/world-border", "/player-shops"]
+
+[[groups]]
+name = "Mobs"
+pages = ["/pirkko", "/gold-gary-jr"]
+
+[[groups]]
+name = "Rift Raid mobs"
+pages = ["/bombardier", "/drummer", "/chained-ghast", "/general"]
+
+[[groups]]
+name = "Items"
+pages = ["/ovve", "/patches", "/dyes", "/wrench"]
+
+[[groups]]
+name = "Flowers"
+pages = ["/cerose", "/laser-violet", "/rgbouquet"]

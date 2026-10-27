@@ -14,7 +14,17 @@ This page only lists **additions**, but there are also several vanilla things we
 
 ## Student overalls
 
-{{< main "Ovve" >}}
+{{< main "Ovve" "Patches" >}}
+
+## Rift Raids
+
+{{< main "Rift Raids" >}}
+
+Lighting a Nether portal starts a raid instead of opening a way to the Nether.
+
+## New mobs
+
+[[Pirkko|Pirkkos]] lurk in caves and drop themselves as collectible blocks. [[Gold Gary Jr.]] waits at spawn for gold to expand the [[world border]].
 
 ## Armor stand statues
 
@@ -27,3 +37,5 @@ Players always drop their head when killed by another player, and all mobs have 
 **Wandering Traders** will also sell custom mini-blocks you can use to decorate your builds.
 
 For additional custom heads, there is a database of heads that you will be able to access by trading in mob heads. More information on this soon.
+
+{{< navbox "season6" >}}

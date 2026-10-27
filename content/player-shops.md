@@ -10,3 +10,5 @@ categories = ['Features']
 ## Setup
 
 The shop block must be placed on top of a **barrel** that stores input/output. Once placed, right-click the shop block to start configuring your trades.
+
+{{< navbox "season6" >}}

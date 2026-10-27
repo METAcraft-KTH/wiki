@@ -8,3 +8,5 @@ The **Wrench** makes block entities such as chests, furnaces and dispensers mova
 ## Crafting
 
 {{< image src="wrench_crafting.png" caption="Wrench crafting recipe" width="300" align="none" >}}
+
+{{< navbox "season6" >}}
