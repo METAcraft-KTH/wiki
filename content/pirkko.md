@@ -3,7 +3,7 @@ title = 'Pirkko'
 date = 2026-10-27
 categories = ['Mobs', 'Blocks']
 +++
-{{< infobox image="pirkko.png" caption="A Pirkko" >}}
+{{< infobox image="pirkko.png" caption="A Laser Violet Pirkko" >}}
 ## Mob
 Behavior | Hostile
 Spawns in | Caves, mostly

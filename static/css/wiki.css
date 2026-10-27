@@ -101,6 +101,7 @@ a.selflink { color: var(--text); font-weight: 600; pointer-events: none; }
   font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
 .infobox-image { text-align: center !important; background: var(--surface-2); padding: 1rem !important; }
 .infobox-image img { max-width: 100%; max-height: 300px; width: auto; height: auto; image-rendering: pixelated; }
+.infobox-image img.sprite { width: 128px; }
 .infobox-caption { font-size: .85em; color: var(--muted); margin-top: .5rem; }
 
 /* Navbox */
