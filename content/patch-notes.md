@@ -6,7 +6,7 @@ categories = ['Patch notes']
 
 A list of all **patch notes** for the Season 6 SMP, newest first.
 
-## Tuesday Newsday Patch
+## A "Holy shit the border is moving" Patch
 
 * Added Gold Gary Jr.
   * He sits at spawn and waits for players to feed him gold blocks
