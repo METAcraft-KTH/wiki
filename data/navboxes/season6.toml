@@ -5,12 +5,12 @@ name = "Mechanics"
 pages = ["/rift-raids", "/world-border", "/player-shops"]
 
 [[groups]]
-name = "Mobs"
-pages = ["/pirkko", "/gold-gary-jr"]
+name = "NPC"
+pages = ["/gold-gary-jr", "/phoz"]
 
 [[groups]]
-name = "Rift Raid mobs"
-pages = ["/bombardier", "/drummer", "/chained-ghast", "/general"]
+name = "Mobs"
+pages = ["/pirkko", "/bombardier", "/drummer", "/chained-ghast", "/general"]
 
 [[groups]]
 name = "Items"

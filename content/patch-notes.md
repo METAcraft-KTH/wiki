@@ -4,9 +4,8 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
-A list of all **patch notes** for the Season 6 SMP, newest first.
-
 ## A "Holy shit the border is moving" Patch
+27 October 2026
 
 * Added [[Gold Gary Jr.]]
   * He sits at spawn and waits for players to feed him gold blocks
@@ -22,7 +21,8 @@ A list of all **patch notes** for the Season 6 SMP, newest first.
 * Ovvar database has been set up, allowing [[ovve]] stashes to be synced across METAcraft's event and survival servers
 * Ovvar can now be crafted with chapter-colored wool
 
-## Season 6 Launch Day
+## Season 6 Opening
+26 October 2026
 
 * Added Cerise Dye, Laserviolet Dye, and RGB Dye (see [[dyes]])
   * They can only be obtained from their respective flowers
