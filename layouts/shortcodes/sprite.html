@@ -1,0 +1,7 @@
+{{- /* Usage: {{< sprite "moredyes/cerise_dye.png" "Cerise Dye" >}} — pixel art inline with text, at 2x. Files live in assets/images/. */ -}}
+{{- with resources.Get (path.Join "images" ($.Get 0)) -}}
+  <img src="{{ .RelPermalink }}" alt="{{ $.Get 1 }}"{{ with $.Get 1 }} title="{{ . }}"{{ end }} class="sprite" width="{{ mul .Width 2 }}" height="{{ mul .Height 2 }}">
+{{- else -}}
+  {{- warnf "image %q not found in assets/images" ($.Get 0) -}}
+  <span class="missing-file">File:{{ $.Get 0 }}</span>
+{{- end -}}

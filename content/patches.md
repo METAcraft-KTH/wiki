@@ -19,13 +19,14 @@ The chapters' own patches are a dye in the middle of the crafting grid with a st
 
 Dye | Patch
 --- | ---
-Lime Dye | ITK patch
-Laser Violet Dye | IT patch
-Cerise Dye | Data patch
+Lime Dye | {{< sprite "ovvar/patches/itk.png" "ITK" >}} ITK
+{{< sprite "moredyes/laserviolet_dye.png" "Laser Violet Dye" >}} Laser Violet Dye | {{< sprite "ovvar/patches/it.png" "IT" >}} IT
+{{< sprite "moredyes/cerise_dye.png" "Cerise Dye" >}} Cerise Dye | {{< sprite "ovvar/patches/data.png" "Data" >}} Data
+{{< sprite "moredyes/rgb_dye.png" "RGB Dye" >}} RGB Dye | {{< sprite "ovvar/patches/medieteknik.png" "Medieteknik" >}} Medieteknik
 
 {{< image src="booklet/recipe/patch_itk.png" caption="ITK patch" width="250" align="none" >}}
 
-An IT patch crafted with a Bottle o' Enchanting becomes the IN patch.
+An IT patch crafted with a Bottle o' Enchanting becomes the IN patch {{< sprite "ovvar/patches/in.png" "IN" >}}.
 
 {{< image src="booklet/recipe/patch_in.png" caption="IN patch" width="250" align="none" >}}
 
@@ -40,6 +41,41 @@ Every other patch is treasure: a chest in any structure (a village house, a dung
 The Rivals patch comes only from the Rivals event, and the TMEIT Marshal patch only to TMEIT's marshals: nobody crafts or finds those two. Everyone who participated in the Metacraft Rivals event has been given its patches.
 
 A patch you are given goes into your stash with a flourish and a line in chat, and waits there until you take it out.
+
+## List of patches
+
+Patch | Name | Artist | Obtained from
+--- | --- | --- | ---
+{{< sprite "ovvar/patches/itk.png" "ITK" >}} | ITK | | Crafting
+{{< sprite "ovvar/patches/rivals.png" "METAcraft Rivals '26" >}} | METAcraft Rivals '26 (seat) | | Rivals event
+{{< sprite "ovvar/patches/it.png" "IT" >}} | IT | Cactooz | Crafting
+{{< sprite "ovvar/patches/data.png" "Data" >}} | Data | | Crafting
+{{< sprite "ovvar/patches/spiken.png" "Spiken" >}} | Spiken | Cactooz | Chests
+{{< sprite "ovvar/patches/slaggan.png" "Släggan" >}} | Släggan | Cactooz | Chests
+{{< sprite "ovvar/patches/ticket_to_my_heart.png" "Ticket to my heart" >}} | Ticket to my heart | Måns | Chests
+{{< sprite "ovvar/patches/maid.png" "Maid dress" >}} | Maid dress | Mackan | Chests
+{{< sprite "ovvar/patches/pung.png" "Pung" >}} | Pung (seat) | | Chests
+{{< sprite "ovvar/patches/in.png" "IN" >}} | IN | Ainrave | Crafting
+{{< sprite "ovvar/patches/in_gold.png" "IN (gold)" >}} | IN (gold) | Ainrave | Chests
+{{< sprite "ovvar/patches/nyckeln0x0.png" "Nyckeln 0x0" >}} | Nyckeln 0x0 | Ainrave | Chests
+{{< sprite "ovvar/patches/nyckeln0x1.png" "Nyckeln 0x1" >}} | Nyckeln 0x1 | Ainrave | Chests
+{{< sprite "ovvar/patches/nyckeln0x2.png" "Nyckeln 0x2" >}} | Nyckeln 0x2 | Ainrave | Chests
+{{< sprite "ovvar/patches/kommn.png" "KomMN" >}} | KomMN | Ainrave | Chests
+{{< sprite "ovvar/patches/jgs.png" "JGS" >}} | JGS | | Chests
+{{< sprite "ovvar/patches/tmeit.png" "TMEIT" >}} | TMEIT | | Chests
+{{< sprite "ovvar/patches/tmeit-marshal.png" "TMEIT Marshal" >}} | TMEIT Marshal | | TMEIT's marshals
+{{< sprite "ovvar/patches/batata.png" "Batata" >}} | Batata | Ainrave | Chests
+{{< sprite "ovvar/patches/batato.png" "Batato" >}} | Batato | Ainrave | Chests
+{{< sprite "ovvar/patches/batatu.png" "Batatu" >}} | Batatu | Ainrave | Chests
+{{< sprite "ovvar/patches/cerise.png" "Cerise" >}} | Cerise | Ainrave | Chests
+{{< sprite "ovvar/patches/playboy-pikachu.png" "Playboy Pikachu" >}} | Playboy Pikachu | Ainrave | Chests
+{{< sprite "ovvar/patches/starkt.png" "Starkt" >}} | Starkt | Ainrave | Chests
+{{< sprite "ovvar/patches/data_neko.png" "Data Neko" >}} | Data Neko | Millia | Chests
+{{< sprite "ovvar/patches/kth.png" "KTH" >}} | KTH | Millia | Chests
+{{< sprite "ovvar/patches/media_neko.png" "Media Neko" >}} | Media Neko | Millia | Chests
+{{< sprite "ovvar/patches/medieteknik.png" "Medieteknik" >}} | Medieteknik | Millia | Crafting
+{{< sprite "ovvar/patches/metacraft.png" "METAcraft" >}} | METAcraft | Millia | Chests
+{{< sprite "ovvar/patches/metacrew.png" "METAcrew" >}} | METAcrew | Millia | Chests
 
 ## Where they go
 

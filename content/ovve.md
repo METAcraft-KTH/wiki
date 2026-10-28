@@ -21,10 +21,10 @@ An **ovve** is your student overall: one garment, worn in the legs slot, that yo
 
 One ovve per chapter:
 
-* **Data Ovve**, in cerise
-* **IT Ovve**, in purple
-* **IT Kisel Ovve**, the older IT ovve
-* **Media Frack**, a tailcoat
+* {{< sprite "ovvar/icon_data.png" "Data Ovve" >}} **Data Ovve**, in cerise
+* {{< sprite "ovvar/icon_it.png" "IT Ovve" >}} **IT Ovve**, in purple
+* {{< sprite "ovvar/icon_it_kisel.png" "IT Kisel Ovve" >}} **IT Kisel Ovve**, the older IT ovve
+* {{< sprite "ovvar/icon_mediafrack.png" "Media Frack" >}} **Media Frack**, a tailcoat
 
 Each ovve is a single item that goes in the **legs** slot: drag it in, or shift-click it. Right-clicking does not equip it (see [Storage](#storage)). It protects like leather and never wears out.
 

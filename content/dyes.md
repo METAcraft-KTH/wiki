@@ -22,9 +22,9 @@ Each dye can only be crafted from its matching flower. One flower makes one dye;
 
 Dye | Flower
 --- | ---
-Cerise Dye | [[Cerose]]
-Laser Violet Dye | [[Laser Violet]]
-RGB Dye | [[RGBouquet]]
+{{< sprite "moredyes/cerise_dye.png" "Cerise Dye" >}} Cerise Dye | {{< sprite "moredyes/cerise_flower.png" "Cerose" >}} [[Cerose]]
+{{< sprite "moredyes/laserviolet_dye.png" "Laser Violet Dye" >}} Laser Violet Dye | {{< sprite "moredyes/laserviolet_flower.png" "Laser Violet" >}} [[Laser Violet]]
+{{< sprite "moredyes/rgb_dye.png" "RGB Dye" >}} RGB Dye | {{< sprite "moredyes/rgb_flower.png" "RGBouquet" >}} [[RGBouquet]]
 
 The flowers can only be acquired from **Sniffers**. A sniffer digging in grass or dirt sometimes turns up one of them, each as often as its own torchflower seeds and pitcher pods. Sniffers hatch from a sniffer egg, found in the suspicious sand of warm ocean ruins.
 
@@ -44,6 +44,19 @@ The flowers can only be acquired from **Sniffers**. A sniffer digging in grass o
 * A pet's collar, in the nearest vanilla color
 
 A beacon beam goes through Cerise, Laser Violet and RGB stained glass uncolored.
+
+Block | Cerise | Laser Violet
+--- | --- | ---
+Wool | {{< sprite "moredyes/cerise_wool.png" "Cerise Wool" >}} | {{< sprite "moredyes/laserviolet_wool.png" "Laser Violet Wool" >}}
+Terracotta | {{< sprite "moredyes/cerise_terracotta.png" "Cerise Terracotta" >}} | {{< sprite "moredyes/laserviolet_terracotta.png" "Laser Violet Terracotta" >}}
+Glazed terracotta | {{< sprite "moredyes/cerise_glazed_terracotta.png" "Cerise Glazed Terracotta" >}} | {{< sprite "moredyes/laserviolet_glazed_terracotta.png" "Laser Violet Glazed Terracotta" >}}
+Concrete | {{< sprite "moredyes/cerise_concrete.png" "Cerise Concrete" >}} | {{< sprite "moredyes/laserviolet_concrete.png" "Laser Violet Concrete" >}}
+Concrete powder | {{< sprite "moredyes/cerise_concrete_powder.png" "Cerise Concrete Powder" >}} | {{< sprite "moredyes/laserviolet_concrete_powder.png" "Laser Violet Concrete Powder" >}}
+Stained glass | {{< sprite "moredyes/cerise_stained_glass.png" "Cerise Stained Glass" >}} | {{< sprite "moredyes/laserviolet_stained_glass.png" "Laser Violet Stained Glass" >}}
+Bundle | {{< sprite "moredyes/cerise_bundle.png" "Cerise Bundle" >}} | {{< sprite "moredyes/laserviolet_bundle.png" "Laser Violet Bundle" >}}
+Harness | {{< sprite "moredyes/cerise_harness.png" "Cerise Harness" >}} | {{< sprite "moredyes/laserviolet_harness.png" "Laser Violet Harness" >}}
+
+The RGB Glazed Terracotta {{< sprite "moredyes/rgb_glazed_terracotta.png" "RGB Glazed Terracotta" >}} has its own pattern; the rest of RGB's blocks cycle through the rainbow.
 
 ## RGB
 
