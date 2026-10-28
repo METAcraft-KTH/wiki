@@ -18,7 +18,13 @@ The border is set to be 1000 x 1000 blocks at launch day and gradually expands i
 
 **The Nether's world generation now goes up to Y=255**, meaning the Nether roof is effectively patched. For technical players, Bedrock is now considered non-solid blocks and will not affect mob spawn rates when building below it. See [[technical changes]].
 
+The Nether is held back at first: for now, lighting a portal starts a [[Rift Raids|Rift Raid]]. When the Nether opens, it will not be the Nether you know:
+
+* It is **amplified**: the ground climbs and drops far more steeply than before.
+* It has **more biomes** to find.
+* Its **roof is closed**: there is no getting up above the bedrock ceiling.
+
 ## End
 
-To be announced...
+The End gets one addition: the [[void anchor]], which catches you when you fall into the void.
 

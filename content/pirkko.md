@@ -22,6 +22,10 @@ Pirkkos come in 19 colors: the 16 vanilla colors plus the three chapter colors f
 
 Pirkko items cannot be crafted or dyed, so the only way to collect a color is to find and kill a Pirkko of that color.
 
+## Banner pattern
+
+There is also a Pirkko [[banner patterns|banner pattern]].
+
 ## Advancements
 
 There are advancements for killing Pirkkos.

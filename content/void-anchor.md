@@ -1,0 +1,40 @@
++++
+title = 'Void Anchor'
+date = 2026-10-28
+categories = ['Features', 'Blocks']
++++
+{{< infobox image="booklet/qol/void_anchor.png" caption="A void anchor" >}}
+Works in | The End
+Charges | Up to 4, end crystals
+Sets spawn | No
+Explodes | No
+{{< /infobox >}}
+A **void anchor** catches you when you fall into the End's void. Space cracks open below you, you sink into the crack, and you step out next to your anchor. It only works in the End.
+
+## Crafting
+
+{{< image src="booklet/recipe/void_anchor.png" caption="Void anchor crafting recipe" width="250" align="none" >}}
+
+Like a respawn anchor, with eyes of ender where the glowstone goes.
+
+## Charging it
+
+Right-click it with an end crystal to add a charge, up to four; the lights on its sides show how many. Each rescue uses one. A dispenser with end crystals in it charges the anchor it faces.
+
+## Binding to it
+
+Right-click it with an empty hand. You are bound to one anchor at a time, so binding another moves you over. Friends can bind to the same anchor and share its charges.
+
+An empty anchor binds you too, but tells you it needs charging: it catches nobody until it has a charge. Unlike a respawn anchor, it never explodes and never sets your spawn.
+
+## Falling
+
+{{< image src="booklet/qol/rift.png" caption="The crack in space" width="200" >}}
+
+Drop below the bottom of the End and you stop in mid-air, looking down, while space cracks open under you. You sink into the crack, everything goes white, and you are standing beside your anchor, a crack open on top of it. The anchor loses a charge.
+
+Gliding with an elytra? It folds when the crack catches you.
+
+If your anchor is empty, broken or blocked in, you are told so as you fall, and you fall the way you would without one.
+
+{{< navbox "season6" >}}

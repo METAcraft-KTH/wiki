@@ -2,7 +2,7 @@ title = "METAcraft Season 6"
 
 [[groups]]
 name = "Mechanics"
-pages = ["/rift-raids", "/world-border", "/player-shops"]
+pages = ["/rift-raids", "/world-border", "/player-shops", "/brewing", "/banner-patterns"]
 
 [[groups]]
 name = "NPC"
@@ -10,11 +10,15 @@ pages = ["/gold-gary-jr", "/phoz"]
 
 [[groups]]
 name = "Mobs"
-pages = ["/pirkko", "/bombardier", "/drummer", "/chained-ghast", "/general"]
+pages = ["/pirkko", "/piglin-drummer", "/piglin-grenadier", "/chained-ghast", "/piglin-general"]
 
 [[groups]]
 name = "Items"
-pages = ["/ovve", "/patches", "/dyes", "/wrench"]
+pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-fork"]
+
+[[groups]]
+name = "Blocks"
+pages = ["/canvas", "/mailbox", "/rope", "/sign-post", "/void-anchor"]
 
 [[groups]]
 name = "Flowers"
