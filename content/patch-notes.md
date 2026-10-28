@@ -4,11 +4,18 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
+## An "Uneventful third act" Patch
+28 October 2026
+* All players can now donate up to 20 blocks to Gold Gary Jr.
+* [[World border]] max width is now 1500 blocks
+* The TNT crafting recipe now produces twice as many TNTs
+* Added an advancement for breeding 2 parrots together
+
 ## A "Holy shit the border is moving" Patch
 27 October 2026
 
 * Added [[Gold Gary Jr.]]
-  * He sits at spawn and waits for players to feed him gold blocks
+  * He sits at spawn and waits for players to give him gold blocks
   * Every gold block donated adds +1 block to the [[world border]] diameter
   * For today only, each player may only donate up to 10 blocks
   * For today only, max border width is constrained to 1250 blocks (from 1000)
@@ -47,6 +54,6 @@ categories = ['Patch notes']
   * The bigger the Nether portal frame, the more difficult the raid will be
   * Piglins will appear from the portal, and killing them yields Nether loot
   * After the raid ends, the obsidian portal frame is converted to crying obsidian
-* Added [[Bombardier]], [[Drummer]], [[Chained Ghast]], [[General]]
+* Added [[Piglin Grenadier]], [[Piglin Drummer]], [[Chained Ghast]], [[Piglin General]]
   * These mobs only spawn during Rift Raids
 * Added a [[world border]] that constrains the playable area to 1000x1000
