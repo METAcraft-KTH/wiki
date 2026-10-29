@@ -9,6 +9,7 @@ categories = ['Patch notes']
 * All players can now donate up to 30 blocks to Gold Gary Jr.
 * World border max width is now 1750 blocks
 * Donating 1 gold block to the border now grants you 50 xp
+* You can now see the current world border width in the player list (Tab)
 
 
 ## An "Uneventful third act" Patch
