@@ -4,6 +4,13 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
+## A "There's a Latin phrase for this" Patch
+29 October 2026
+* All players can now donate up to 30 blocks to Gold Gary Jr.
+* World border max width is now 1750 blocks
+* Donating 1 gold block to the border now grants you 50 xp
+
+
 ## An "Uneventful third act" Patch
 28 October 2026
 * All players can now donate up to 20 blocks to Gold Gary Jr.
