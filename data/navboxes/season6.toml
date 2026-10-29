@@ -2,7 +2,7 @@ title = "METAcraft Season 6"
 
 [[groups]]
 name = "Mechanics"
-pages = ["/rift-raids", "/world-border", "/player-shops", "/brewing", "/banner-patterns"]
+pages = ["/technical-changes", "/rift-raids", "/world-border", "/player-shops", "/brewing", "/banner-patterns"]
 
 [[groups]]
 name = "NPC"
@@ -18,8 +18,4 @@ pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-f
 
 [[groups]]
 name = "Blocks"
-pages = ["/canvas", "/mailbox", "/rope", "/sign-post", "/void-anchor"]
-
-[[groups]]
-name = "Flowers"
-pages = ["/cerose", "/laser-violet", "/rgbouquet"]
+pages = ["/canvas", "/mailbox", "/rope", "/sign-post", "/void-anchor", "/cerose", "/laser-violet", "/rgbouquet"]

@@ -1,7 +1,7 @@
 +++
 title = 'World border'
 date = 2026-10-27
-categories = ['Features']
+categories = ['Features', 'Mechanics']
 +++
 {{< infobox image="world_border.png" >}}
 Starting size | 1000 × 1000

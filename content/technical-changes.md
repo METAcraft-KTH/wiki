@@ -1,14 +1,16 @@
 +++
 title = 'Technical changes'
 date = 2026-10-25
-categories = ['Technical changes']
+categories = ['Technical changes', 'Mechanics']
 +++
 
 Here's a list of **technical changes** that may be important for technical players to know, as it might affect your farms or automated contraptions. Some of the features have been modified for optimization, quality-of-life or because we simply think it makes for better gameplay.
 
 ## Nether roof
 
-**The Nether's world generation now goes up to Y=255**, meaning the Nether roof is effectively patched. For technical players, Bedrock is now considered non-solid blocks and will not affect mob spawn rates when building below it. See [[world generation]].
+{{< main "World generation" >}}
+
+**The Nether's world generation now goes up to Y=255**, meaning the Nether roof is effectively patched. For technical players, Bedrock is now considered non-solid blocks and will not affect mob spawn rates when building below it.
 
 ## Movable block entities
 

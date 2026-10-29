@@ -1,0 +1,6 @@
+{{- /* Usage: {{< recent >}} or {{< recent 10 >}} — most recently edited pages */ -}}
+<ul class="recent">
+{{- range first (.Get 0 | default 8) site.RegularPages.ByLastmod.Reverse }}
+<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 Jan" }}</time></li>
+{{- end }}
+</ul>

@@ -1,7 +1,7 @@
 +++
 title = 'Banner Patterns'
 date = 2026-10-28
-categories = ['Features']
+categories = ['Features', 'Mechanics']
 +++
 {{< infobox image="booklet/kultur/banners.png" caption="The chapters' banners" >}}
 Patterns | ITK, QMISK, TMEIT, Pirkko

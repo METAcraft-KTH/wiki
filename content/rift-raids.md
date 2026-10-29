@@ -1,7 +1,7 @@
 +++
 title = 'Rift Raids'
 date = 2026-10-27
-categories = ['Features', 'Mobs']
+categories = ['Features', 'Mechanics', 'Mobs']
 +++
 {{< infobox title="Rift Raid" image="booklet/rifts/rift.png" caption="A rift" >}}
 Trigger | Lighting a Nether portal three times

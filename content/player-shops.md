@@ -1,7 +1,7 @@
 +++
 title = 'Player Shops'
 date = 2026-10-25
-categories = ['Features']
+categories = ['Features', 'Mechanics']
 +++
 **Player shops** let you sell to other players from a barrel. They trade with it as with a villager, even while you are away.
 

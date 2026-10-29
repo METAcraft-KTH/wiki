@@ -2,10 +2,11 @@
 <nav class="tiles">
 {{- range slice
   (dict "n" "Features" "i" "✨" "u" "/features/")
+  (dict "n" "Mechanics" "i" "⚙️" "u" "/categories/mechanics/")
   (dict "n" "Items" "i" "🗡️" "u" "/categories/items/")
-  (dict "n" "World generation" "i" "🌍" "u" "/world-generation/")
-  (dict "n" "Technical changes" "i" "⚙️" "u" "/technical-changes/")
-  (dict "n" "Patch notes" "i" "📜" "u" "/patch-notes/") }}
-<a href="{{ .u }}"><span class="tile-icon">{{ .i }}</span><span class="tile-name">{{ .n }}</span></a>
+  (dict "n" "Blocks" "i" "🧱" "u" "/categories/blocks/")
+  (dict "n" "Mobs" "i" "🐷" "u" "/categories/mobs/")
+  (dict "n" "NPCs" "i" "🧑" "u" "/categories/npc/") }}
+<a href="{{ .u | relURL }}"><span class="tile-icon">{{ .i }}</span><span class="tile-name">{{ .n }}</span></a>
 {{- end }}
 </nav>
