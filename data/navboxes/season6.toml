@@ -2,7 +2,7 @@ title = "METAcraft Season 6"
 
 [[groups]]
 name = "Mechanics"
-pages = ["/technical-changes", "/rift-raids", "/world-border", "/player-shops", "/brewing", "/banner-patterns"]
+pages = ["/technical-changes", "/rift-raids", "/world-border", "/player-shops", "/brewing", "/banner-patterns", "/shaders"]
 
 [[groups]]
 name = "NPC"
