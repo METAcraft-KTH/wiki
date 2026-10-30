@@ -76,7 +76,7 @@ a.selflink { color: var(--text); font-weight: 600; pointer-events: none; }
 
 /* Headings */
 .content h2 { font-size: 1.5rem; font-weight: 600; margin: 2.25rem 0 .75rem; padding-bottom: .3rem;
-  border-bottom: 1px solid var(--border); }
+  border-bottom: 1px solid var(--border); display: flow-root; /* shrink beside floated images */ }
 .content h3 { font-size: 1.15rem; font-weight: 600; margin: 1.5rem 0 .5rem; }
 .content > :first-child { margin-top: 0; }
 
