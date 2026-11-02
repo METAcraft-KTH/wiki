@@ -4,6 +4,17 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
+## Nether Update
+2 November 2025
+* Per-player gold donation cap has been removed
+* Overworld world border max width is now 4000 blocks
+* Nether world border starts from 500 blocks and expands by 0.5 blocks width for each donated gold block
+
+## Unnamed Patch
+30 October 2025
+* All players can now donate up to 40 blocks to Gold Gary Jr.
+* World border max width is now 2000 blocks
+
 ## A "There's a Latin phrase for this" Patch
 29 October 2026
 * All players can now donate up to 30 blocks to Gold Gary Jr.
