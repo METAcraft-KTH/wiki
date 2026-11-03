@@ -4,14 +4,17 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
+## 3 November 2026
+* Fixed [[wrench|wrenches]] not doing anything
+* Changed game difficulty to Hard (it was accidentally set to Easy at some point)
+
 ## Nether Update
-2 November 2025
+2 November 2026
 * Per-player gold donation cap has been removed
-* Overworld world border max width is now 4000 blocks
+* Overworld world border max width is now 5000 blocks
 * Nether world border starts from 500 blocks and expands by 0.5 blocks width for each donated gold block
 
-## Unnamed Patch
-30 October 2025
+## 30 October 2026
 * All players can now donate up to 40 blocks to Gold Gary Jr.
 * World border max width is now 2000 blocks
 
