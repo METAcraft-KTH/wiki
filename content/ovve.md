@@ -63,6 +63,6 @@ Command | Effect
 `/ovvar stash` | Opens your wardrobe and patch stash
 `/ovvar look [player]` | Shows somebody's ovve as they have it, online or not; on its own it shows yours
 `/ovvar reload` | Fetches the latest resource pack, when somebody's patches look out of date
-`/ovvar shaders` | Helps if you play with a shaderpack
+`/ovvar shaders` | Links the shader patcher, if you play with a shaderpack (see [[shaders]])
 
 {{< navbox "season6" >}}
