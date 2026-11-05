@@ -4,6 +4,10 @@ date = 2026-10-27
 categories = ['Patch notes']
 +++
 
+## 5 November 2026
+* Fixed overworld border cap max width was actually set to 4000 and not 5000
+* Fixed periodic lag spikes every 5 minutes on the server
+
 ## 3 November 2026
 * Fixed [[wrench|wrenches]] not doing anything
 * Changed game difficulty to Hard (it was accidentally set to Easy at some point)
