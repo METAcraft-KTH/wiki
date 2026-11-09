@@ -1,6 +1,6 @@
 +++
 title = 'Patch notes'
-date = 2026-11-9
+date = 2026-11-09
 categories = ['Patch notes']
 +++
 
