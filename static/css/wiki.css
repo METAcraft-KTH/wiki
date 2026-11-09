@@ -160,5 +160,8 @@ footer, footer.wrap { color: var(--muted); font-size: .8rem; padding-top: 2rem; 
 @media (max-width: 40rem) { .tiles { grid-template-columns: repeat(2, 1fr); } }
 
 .hatnote { margin: 0 0 1rem 1.5rem; font-style: italic; color: var(--muted); }
+.notice { margin: 0 0 2rem; padding: .6rem 1rem; text-align: center; background: color-mix(in srgb, var(--new) 12%, var(--bg));
+  border-left: 4px solid var(--new); border-radius: var(--radius); }
+.notice:has(+ .notice) { margin-bottom: .5rem; }
 .recent { columns: 2 16em; padding-left: 1.2em; }
 .recent time { color: var(--muted); font-size: .85em; }

@@ -3,6 +3,7 @@ title = 'Brewing'
 date = 2026-10-28
 categories = ['Features', 'Mechanics']
 aliases = ['/chapter-drinks/']
+notice = ['unreleased']
 +++
 {{< infobox title="Chapter Drinks" image="booklet/brewing/barrel.png" caption="A barrel" >}}
 Steps | Cook, distil, age

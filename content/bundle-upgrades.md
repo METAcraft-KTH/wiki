@@ -3,7 +3,7 @@ title = 'Bundle upgrades'
 date = 2026-11-09
 categories = ['Features', 'Items']
 +++
-**Bundle upgrades** increase how much a bundle can hold. They were added in the [[patch-notes|6.2 Bundle Update]].
+**Bundle upgrades** increase how much a bundle can hold. They were added in the [[patch-notes|Bigger Bundles, Bigger Bets]] update.
 
 ## Tiers
 

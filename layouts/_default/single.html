@@ -3,6 +3,13 @@
   <h1>{{ .Title }}</h1>
   <div class="siteSub">From {{ site.Title }}</div>
 </header>
+{{ $notices := dict
+  "unreleased" "The page describes content that has not been added to the game."
+  "old" "This page describe content from a previous season or time and is no longer relevant."
+}}
+{{ range .Params.notice }}
+  {{ with index $notices . }}<div class="notice" role="note">{{ . }}</div>{{ else }}{{ errorf "%s: unknown notice %q" $.File.Path . }}{{ end }}
+{{ end }}
 {{ $toc := and (in .TableOfContents "<li>") (ne .Params.toc false) }}
 <div class="page-body{{ if $toc }} has-toc{{ end }}">
   {{ if $toc }}<aside class="toc"><div class="toc-title">Contents</div>{{ .TableOfContents }}</aside>{{ end }}
