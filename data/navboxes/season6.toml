@@ -14,7 +14,7 @@ pages = ["/pirkko", "/piglin-drummer", "/piglin-grenadier", "/chained-ghast", "/
 
 [[groups]]
 name = "Items"
-pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-fork"]
+pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-fork", "/bundle-upgrades"]
 
 [[groups]]
 name = "Blocks"

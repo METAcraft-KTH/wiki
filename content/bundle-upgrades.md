@@ -24,3 +24,5 @@ Each upgrade is made with a bundle upgrade template.
 {{< image src="bundle_upgrade_template_tier2_recipe.png" caption="Tier 2 bundle upgrade template recipe" width="300" align="none" >}}
 
 {{< image src="bundle_upgrade_template_tier3_recipe.png" caption="Tier 3 bundle upgrade template recipe" width="300" align="none" >}}
+
+{{< navbox "season6" >}}
