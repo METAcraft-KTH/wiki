@@ -4,19 +4,9 @@ date = 2026-11-09
 categories = ['Patch notes']
 +++
 
-# 6.2 Gambling Update
-* Added hats
-  * A hat is a visual-only reskin for helmets
-  * A helmet that has a hat applied can sometimes be dyed the same way leather helmets can
-  * If you have unlocked a hat skin, use `/itemskins` to apply the hat to a helmet in your inventory
-* Added skin tokens
-  * A 1-time use consumable that unlocks a certain reskin cosmetic for the user
-  * Already unlocked hats can be un-unlocked and returned to a Skin Token
-* Added lootboxes
-  * It is a guaranteed drop from hat-wearing mobs that rarely spawn in the Overworld
-    * The less a chunk is explored, the higher the spawn rate
-  * A lootbox contains a random Skin Token for a hat cosmetic
-  * This is the only way to obtain tokens and unlock hats at the moment
+## 6.2 Bundle Update
+* Bundles are now [[bundle upgrades|upgradable]]
+  * See the linked wiki page for recipes
 * Added `/chapter`
   * Use it to color your name tag with your chapter's name
 * The maximum border cap has been removed
@@ -30,7 +20,7 @@ categories = ['Patch notes']
 * Fixed [[wrench|wrenches]] not doing anything
 * Changed game difficulty to Hard (it was accidentally set to Easy at some point)
 
-# 6.1 Nether Opening
+## 6.1 Nether Opening
 2 November 2026
 * Per-player gold donation cap has been removed
 * Overworld world border max width is now 5000 blocks
@@ -72,7 +62,7 @@ categories = ['Patch notes']
 * Ovvar database has been set up, allowing [[ovve]] stashes to be synced across METAcraft's event and survival servers
 * Ovvar can now be crafted with chapter-colored wool
 
-# 6.0 Season 6 Opening
+## 6.0 Season 6 Opening
 26 October 2026
 
 * Added Cerise Dye, Laserviolet Dye, and RGB Dye (see [[dyes]])
