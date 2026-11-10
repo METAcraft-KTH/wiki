@@ -23,6 +23,7 @@ categories = ['Patch notes']
   * Use it to color your name tag with your chapter's name
 * The maximum border cap has been removed
 * Every gold block donated now increase the Oveworld diameter by 2 blocks (from 1) and Nether by 1 block (from 0.5)
+* Fix sign post edit gui closing itself immediately when opened
 
 ## 5 November 2026
 * Fixed overworld border cap max width was actually set to 4000 and not 5000
