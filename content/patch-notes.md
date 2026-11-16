@@ -4,6 +4,30 @@ date = 2026-11-09
 categories = ['Patch notes']
 +++
 
+## Museum Showdown 2026
+- Museum Showdown 2026 begins
+  - This is a team-based collection event that lasts from week 47 (16 Nov) to week 49 (30 Nov), and you represent either East, West or South
+  - The objective is to submit as many unique items as possible while the event is running
+    - "Unique item" is based on item ID, so two differently enchanted diamond swords do not count
+  - After the event ends, the top 5 players who have submitted the most amount of unique items earn one-of-its-kind hats
+  - The team with the most amount of unique items submitted also wins a team prize
+  - Which items have been submitted by which player/team can be found on the website
+- Added new Item Collector NPC at spawn
+  - Talk to him while holding an item in your main hand to mark it as submitted, and have it count towards your person and your team
+- Removed Phöz at spawn
+- Added Punkphöz
+  - Spawns randomly near players similarly to wandering traders, selling ovves and banner patterns
+- Added a significant amount of ovves in different colors from different chapters
+  - They must be purchased from Punkphöz
+- Added 20 new banner and shield patterns based on THS chapter logos
+  - These can be applied in looms directly without any templates
+- Added a few banner and shield patterns based on chapter committees
+  - Templates must be purchased from Punkphöz
+- Zombies can now spawn wearing ovves, and killing them drops a random patch
+- Added several ovve enchantments that make them significantly more useful and viable in gameplay and as armor
+  - They are accessed by simply placing your ovve in an enchanting table
+- Players and mobs can no longer trample farmland
+
 ## Bigger Bundles, Bigger Bets
 * Added hats
   * A hat is a visual-only reskin for helmets
