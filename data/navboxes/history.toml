@@ -1,0 +1,21 @@
+title = "METAcraft history"
+
+[[groups]]
+name = "Seasons"
+pages = ["/descraft", "/season-1", "/season-2", "/season-3", "/season-4", "/season-5"]
+
+[[groups]]
+name = "Events"
+pages = ["/meta-uhc", "/besoscraft", "/a-new-continent", "/metaethercraft"]
+
+[[groups]]
+name = "Items"
+pages = ["/mystifier", "/certificate", "/spranga-kth", "/rod-gron-bla", "/wrench"]
+
+[[groups]]
+name = "People"
+pages = ["/beso", "/other-characters", "/borgarorden", "/herobrine"]
+
+[[groups]]
+name = "Other"
+pages = ["/cerise"]
