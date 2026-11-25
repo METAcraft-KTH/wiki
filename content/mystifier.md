@@ -13,13 +13,9 @@ Season | [[Season 4|4]]
 {{< /infobox >}}
 A **mystifier** is an upgrade template that can be applied to a melee weapon to give it **mystic** quality. A mystic weapon counts the mobs killed with it, if they belong to a chosen category.
 
-It was added to the server on 15 October 2024, during the update and PVP event "[[a-new-continent|A New Continent...?]]".
-
 ## Obtaining
 
 Mystifiers could only be obtained by opening a [[Loot box|loot box]], or bought directly from [[Sleven]] for 32 [[certificate|certificates]].
-
-During the event that introduced them, [[Soul Bottle|soul bottles]] could be traded to the NPC "Soul Merchant" for a chance at a mystifier.
 
 ## Usage
 
@@ -37,5 +33,11 @@ Coal | Wither skeletons only
 Diamond | Players
 
 A weapon can only have one mob category. Applying a new mystifier changes the category, but resets the count to zero.
+
+## History
+
+It was added to the server on 15 October 2024, during the update and PVP event "[[a-new-continent|A New Continent...?]]".
+
+During that event, [[Soul Bottle|soul bottles]] could be traded to the NPC "Soul Merchant" for a chance at a mystifier.
 
 {{< navbox "history" >}}
