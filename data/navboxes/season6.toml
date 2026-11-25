@@ -6,7 +6,7 @@ pages = ["/technical-changes", "/rift-raids", "/world-border", "/player-shops", 
 
 [[groups]]
 name = "NPC"
-pages = ["/gold-gary-jr", "/phoz"]
+pages = ["/gold-gary-jr", "/punkphoz", "/phoz"]
 
 [[groups]]
 name = "Mobs"
@@ -14,7 +14,7 @@ pages = ["/pirkko", "/piglin-drummer", "/piglin-grenadier", "/chained-ghast", "/
 
 [[groups]]
 name = "Items"
-pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-fork", "/bundle-upgrades"]
+pages = ["/ovve", "/patches", "/dyes", "/wrench", "/hammer", "/trowel", "/echo-fork", "/bundle-upgrades", "/item-skins", "/portable-jukebox"]
 
 [[groups]]
 name = "Blocks"

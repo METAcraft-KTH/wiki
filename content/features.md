@@ -24,7 +24,13 @@ Beer, wine, vodka and the chapters' drinks: cooked in a cauldron, distilled, and
 
 {{< main "Banner Patterns" >}}
 
-The chapters' banner and shield patterns (ITK, QMISK, TMEIT and Pirkko) and IT's painting.
+Every chapter's banner and shield pattern, IT's clubs' (ITK, QMISK, TMEIT and Pirkko) and IT's painting.
+
+## Pirkkos
+
+{{< main "Pirkko" >}}
+
+Small cave mobs in every color. Each one you kill drops its head.
 
 ## Chapter-color dyes
 
@@ -33,6 +39,8 @@ The chapters' banner and shield patterns (ITK, QMISK, TMEIT and Pirkko) and IT's
 ## Student overalls
 
 {{< main "Ovve" "Patches" >}}
+
+Every chapter has an ovve. The newer ones are sold by [[Punkphoz|Punkphöz]], a wandering trader.
 
 # Vanilla+
 
@@ -101,6 +109,24 @@ Type `/gesture` to open the gestures menu, and pick one: wave, dab, facepalm and
 
 You have to stand on the ground to start one. It ends by itself, or sneak to stop it early. The menu is also in your Quick Actions.
 
+## Item skins
+
+{{< main "Item Skins" >}}
+
+Hats and looks for your tools and armor: claim a skin, then put it on with `/itemskins`.
+
+## Portable Jukebox
+
+{{< main "Portable Jukebox" >}}
+
+A jukebox you carry. [[Piglin Drummer|Piglin Drummers]] drop it.
+
+## Graves
+
+When you die, your items and experience go into a **grave** where you fell instead of spilling on the ground. Go back and open it to get them back.
+
+Die in lava or fall into the void and there is no grave: what you carried is gone. In the End a [[void anchor]] can save you from the fall.
+
 ## Armor stand statues
 
 Armor stands can be configured into different poses! More info on how to do it will arrive soon.
@@ -123,6 +149,6 @@ The Nether is held back at first. For now a lit Nether portal opens a rift inste
 
 # New mobs
 
-[[Pirkko|Pirkkos]] lurk in caves and drop themselves as collectible blocks. [[Gold Gary Jr.]] waits at spawn for gold to expand the [[world border]]. The [[Piglin Drummer]], [[Piglin Grenadier]], [[Chained Ghast]] and [[Piglin General]] come through the rifts.
+[[Pirkko|Pirkkos]] lurk in caves and drop their heads as collectible blocks. [[Punkphoz|Punkphöz]] wanders the world selling ovvar, patches and banner patterns. [[Gold Gary Jr.]] waits at spawn for gold to expand the [[world border]]. The [[Piglin Drummer]], [[Piglin Grenadier]], [[Chained Ghast]] and [[Piglin General]] come through the rifts.
 
 {{< navbox "season6" >}}

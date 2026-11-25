@@ -35,7 +35,7 @@ The flowers can only be acquired from **Sniffers**. A sniffer digging in grass o
 * Wool, carpet, beds, candles, banners and shields
 * Terracotta, glazed terracotta, concrete and concrete powder
 * Stained glass and panes, shulker boxes, bundles
-* Wool and concrete stairs and slabs, cushions
+* Wool and concrete stairs and slabs (concrete ones also in a stonecutter, like vanilla's), cushions
 * A happy ghast's harness, a llama's carpet
 * Sheep: use the dye on one, shear it for wool in the color; two of a color have lambs in it
 * Leather armor, leather horse armor, wolf armor and firework stars, mixed with other dyes as usual

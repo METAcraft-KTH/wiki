@@ -22,7 +22,11 @@ We're running the mod [Alternate Current](https://modrinth.com/mod/alternate-cur
 
 ## Unlimited anvil repairs
 
-Anvils don't increase the XP cost when repairing or renaming an item, and the maximum XP cost never goes above 39 levels. This means *Mending* is not a necessity like in vanilla, since there's no upper limit on how many times you can repair an item.
+An anvil never says "Too Expensive!": a job that would cost 40 levels or more costs 39. In vanilla every trip to the anvil makes the next one dearer; here only adding enchantments does. Repairing and renaming never make an item cost more later. This means *Mending* is not a necessity like in vanilla, since there's no upper limit on how many times you can repair an item.
+
+* Renaming alone costs about one level, however many times the item has been to an anvil.
+* One netherite ingot repairs netherite gear fully, and so do four netherite scrap.
+* A bow can have both Mending and Infinity.
 
 ## Villager Trade Rebalance
 
@@ -42,15 +46,15 @@ Endermen cannot pick up blocks.
 
 ## Better pet management
 
-Pets cannot be hurt by their owner or other players the pet trusts. As the owner, you can choose which other players the pet should trust by sneaking and right-clicking the pet. If a pet trusts you, you can decide whether it should sit or stand, and the pet will never attack you.
+Pets cannot be hurt by their owner or other players the pet trusts, arrows included. As the owner, you can choose which other players the pet should trust by sneaking and right-clicking the pet and picking from the players within 16 blocks. If a pet trusts you, you can decide whether it should sit or stand, and the pet will never attack you. A pet follows whoever right-clicked it last, you or a trusted player.
 
 ## Breedable parrots
 
-Parrots can be bred and healed with seeds.
+Parrots can be bred and healed with seeds. A baby takes one parent's color, and belongs to its parent's owner.
 
 ## Leads
 
-Tamed pets that are standing and leashed animals (or boats and everything they contain) will follow the player through portals.
+Tamed pets that are following you and leashed animals (or boats and everything they contain) come with you when you teleport or go through a portal, the End's exit portal too. Pets that are sitting stay where they are.
 
 Leads can also be leashed from fences to fences, though this is a purely decorative change.
 

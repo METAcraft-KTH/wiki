@@ -8,7 +8,7 @@ aliases = ['/drummer/']
 Behavior | Hostile
 Health | 30
 Spawns in | [[Rift Raids]] (every wave from the second), the Nether
-Drops | Rift loot, always a gold ingot
+Drops | Rift loot, always a gold ingot, sometimes a [[Portable Jukebox]]
 {{< /infobox >}}
 The **Piglin Drummer** is a piglin with a war drum. It leads every wave of a [[Rift Raids|Rift Raid]] from the second one on.
 
@@ -32,6 +32,10 @@ Every drummer keeps time with the world clock, so they all beat and slam togethe
 Now and then a drummer walks with the Nether's own piglins: about 3 in every 100 piglins that spawn there bring one. It drums when its piglins fight and buffs them. Like them, it may wear gold armor, its big beat spares players who wear gold, and it turns zombie in the Overworld. Hit it and the piglins near it turn on you.
 
 A rift's drummer never turns zombie, and gold never spares you from a rift raid.
+
+## Portable Jukebox
+
+A drummer now and then drops a [[Portable Jukebox]] (5%, plus 10% per level of Looting), sometimes with a music disc already in it.
 
 ## Chained Ghast
 

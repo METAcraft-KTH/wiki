@@ -29,7 +29,7 @@ categories = ['Patch notes']
 - Players and mobs can no longer trample farmland
 
 ## Bigger Bundles, Bigger Bets
-* Added hats
+* Added [[item skins|hats]]
   * A hat is a visual-only reskin for helmets
   * A helmet that has a hat applied can sometimes be dyed the same way leather helmets can
   * If you have unlocked a hat skin, use `/itemskins` to apply the hat to a helmet in your inventory

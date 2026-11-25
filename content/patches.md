@@ -4,7 +4,7 @@ date = 2026-10-27
 categories = ['Features', 'Items']
 +++
 {{< infobox image="booklet/ovvar/back.png" caption="Patches sewn on the back of an ovve" >}}
-Obtained from | Crafting, structure chests, events
+Obtained from | Crafting, structure chests, [[Punkphoz|Punkphöz]], mobs in ovvar, events
 Sewn onto | [[Ovve]] or frack
 Stored in | Your patch stash (`/ovvar stash`)
 Limit | None per ovve
@@ -34,11 +34,19 @@ Laser Violet and Cerise are the new [[dyes]].
 
 ### Found
 
-Every other patch is treasure: a chest in any structure (a village house, a dungeon, a mineshaft, a shipwreck, a temple and the rest) has about a one in twenty chance of holding one. Not the bonus chest at spawn.
+Every other patch is treasure: a chest in any structure (a village house, a dungeon, a mineshaft, a shipwreck, a temple and the rest) has about a one in twenty chance of holding one. Not the bonus chest at spawn. The Magpie [enchantment](/ovve/#enchantments) makes them likelier.
+
+### Bought
+
+[[Punkphoz|Punkphöz]], the wandering trader, sells a couple of the chest patches each visit, for emeralds.
+
+### On mobs
+
+Now and then a zombie, skeleton or piglin spawns in an [[ovve]] or a frack instead of armor. It won't give the garment up, but kill one and some of the patches on it may drop.
 
 ### Given
 
-The Rivals patch comes only from the Rivals event, and the TMEIT Marshal patch only to TMEIT's marshals: nobody crafts or finds those two. Everyone who participated in the Metacraft Rivals event has been given its patches.
+The Rivals patch comes only from the Rivals event, the TMEIT Marshal patch only to TMEIT's marshals, the METAcrew patch only to the staff, and the KomMN patch is given too: nobody crafts, finds or buys those four. Everyone who participated in the Metacraft Rivals event has been given its patches.
 
 A patch you are given goes into your stash with a flourish and a line in chat, and waits there until you take it out.
 
@@ -60,7 +68,7 @@ Patch | Name | Artist | Obtained from
 {{< sprite "ovvar/patches/nyckeln0x0.png" "Nyckeln 0x0" >}} | Nyckeln 0x0 | Ainrave | Chests
 {{< sprite "ovvar/patches/nyckeln0x1.png" "Nyckeln 0x1" >}} | Nyckeln 0x1 | Ainrave | Chests
 {{< sprite "ovvar/patches/nyckeln0x2.png" "Nyckeln 0x2" >}} | Nyckeln 0x2 | Ainrave | Chests
-{{< sprite "ovvar/patches/kommn.png" "KomMN" >}} | KomMN | Ainrave | Chests
+{{< sprite "ovvar/patches/kommn.png" "KomMN" >}} | KomMN | Ainrave | Given
 {{< sprite "ovvar/patches/jgs.png" "JGS" >}} | JGS | | Chests
 {{< sprite "ovvar/patches/tmeit.png" "TMEIT" >}} | TMEIT | | Chests
 {{< sprite "ovvar/patches/tmeit-marshal.png" "TMEIT Marshal" >}} | TMEIT Marshal | | TMEIT's marshals
@@ -75,7 +83,7 @@ Patch | Name | Artist | Obtained from
 {{< sprite "ovvar/patches/media_neko.png" "Media Neko" >}} | Media Neko | Millia | Chests
 {{< sprite "ovvar/patches/medieteknik.png" "Medieteknik" >}} | Medieteknik | Millia | Crafting
 {{< sprite "ovvar/patches/metacraft.png" "METAcraft" >}} | METAcraft | Millia | Chests
-{{< sprite "ovvar/patches/metacrew.png" "METAcrew" >}} | METAcrew | Millia | Chests
+{{< sprite "ovvar/patches/metacrew.png" "METAcrew" >}} | METAcrew | Millia | Staff
 
 ## Where they go
 
