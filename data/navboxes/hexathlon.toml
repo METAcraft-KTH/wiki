@@ -1,0 +1,25 @@
+title = "Minecraft Hexathlon"
+
+[[groups]]
+name = "Hexathlon"
+pages = ["/survival-games-hexathlon", "/the-walls", "/spleef-megamix", "/meta-parkour", "/tgttos", "/hide-and-seek"]
+
+[[groups]]
+name = "Hexathlon 2"
+pages = ["/tnt-tag", "/one-in-the-quiver", "/spleef-megamix", "/the-walls", "/half-heart-race", "/survival-games-hexathlon"]
+
+[[groups]]
+name = "Hexathlon 3"
+pages = ["/exactly-as-told", "/tgttos", "/one-in-the-quiver", "/first-we-mine-then-we-craft", "/hela-havet-spleefar", "/king-of-three-hills"]
+
+[[groups]]
+name = "Hexathlon 4"
+pages = ["/exactly-as-told", "/among-the-crowd", "/yfmitiysgds", "/spleef-tag", "/one-in-the-quiver", "/ultimeta-survival"]
+
+[[groups]]
+name = "Hexathlon 5.5"
+pages = ["/exactly-as-told", "/tnt-tag", "/turf-wars", "/king-of-the-mingle", "/hela-havet-spleefar", "/one-in-the-quiver"]
+
+[[groups]]
+name = "METAcraft Rivals"
+pages = ["/paint-the-campus", "/wctbwwgt", "/mini-mega-walls", "/do-or-die", "/not-rocket-league"]

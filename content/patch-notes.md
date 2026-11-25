@@ -4,6 +4,7 @@ date = 2026-11-09
 categories = ['Patch notes']
 +++
 
+
 ## Museum Showdown 2026
 - Museum Showdown 2026 begins
   - This is a team-based collection event that lasts from week 47 (16 Nov) to week 49 (30 Nov), and you represent either East, West or South
