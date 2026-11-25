@@ -8,17 +8,23 @@ Use | Silences mobs
 Durability | Never used up
 Craftable | Yes
 {{< /infobox >}}
-The **echo fork** quietens a noisy mob. Right-click a mob with the echo fork and it goes quiet. Right-click it again to undo it. The echo fork is never used up, and the mob keeps its name.
+The **echo fork** quietens a noisy mob.
 
-It works on villagers and horses too, without opening their trades or getting on.
+## Obtaining
 
-## Crafting
+### Crafting
 
 {{< image src="booklet/recipe/echo_fork.png" caption="Echo fork crafting recipe" width="250" align="none" >}}
 
 Two sculk over an echo shard over an iron ingot, shaped like a tuning fork.
 
-## With a name tag
+## Usage
+
+Right-click a mob with the echo fork and it goes quiet. Right-click it again to undo it. The echo fork is never used up, and the mob keeps its name.
+
+It works on villagers and horses too, without opening their trades or getting on.
+
+### Name tags
 
 A name tag named "silence me" silences a mob too, and one named "unsilence me" undoes it. Capitals and underscores don't matter: "Silence_Me" works. The name tag is used up, but the mob keeps its own name.
 

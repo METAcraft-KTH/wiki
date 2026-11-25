@@ -10,17 +10,21 @@ Craftable | Yes, makes two
 {{< /infobox >}}
 A **sign post** is an arrow-shaped sign on a wooden fence or a wall: point the way to your base, the shop, the portal. Each post takes two, one above the other.
 
-## Crafting
+## Obtaining
+
+### Crafting
 
 {{< image src="booklet/recipe/sign_post.png" caption="Sign post crafting recipe" width="250" align="none" >}}
 
 Makes two. Any wood works: the planks decide which.
 
-## Putting one up
+## Usage
+
+### Placing
 
 Right-click the upper or lower half of a wooden fence or a wall with a sign post. The sign turns to face you, in steps of 15°, and the sign editor opens: one line of text.
 
-## Changing it
+### Editing
 
 Stand in front of the sign and:
 

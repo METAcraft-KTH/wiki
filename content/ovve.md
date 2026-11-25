@@ -44,10 +44,6 @@ Every other chapter got one in [Museum Showdown 2026](/patch-notes/#museum-showd
 * {{< sprite "ovvar/icon_tbas.png" "TBas" >}} TBas
 * {{< sprite "ovvar/icon_bfrack.png" "B-frack" >}} **B-frack**, the black frack Flyg, Maskin and Bergs share
 
-Each ovve is a single item that goes in the **legs** slot: drag it in, or shift-click it. Right-clicking does not equip it (see [Storage](#storage)). It protects like leather and never wears out.
-
-The **Media Frack** is a tailcoat, so it goes in the **chest** slot instead. It is its own top: there is nothing to roll up or down, and patches go only on the coat. Its pockets work like an ovve's. The **B-frack** is worn the same way.
-
 ## Obtaining
 
 The Data, IT, IT Kisel and Media ovvar can be crafted with chapter-colored wool. Until November 2nd they were also sold at spawn by the [[Phoz|Phöz]] for 32 iron ingots each.
@@ -56,21 +52,29 @@ Every other chapter's ovve, and the B-frack, can't be crafted or found: they com
 
 Now and then a zombie, skeleton or piglin spawns wearing an ovve or a frack instead of armor. It won't drop the garment, but it may drop some of its [[patches]].
 
-## The top
+## Usage
+
+### Wearing
+
+Each ovve is a single item that goes in the **legs** slot: drag it in, or shift-click it. Right-clicking does not equip it (see [Storage](#storage)). It protects like leather and never wears out.
+
+The **Media Frack** is a tailcoat, so it goes in the **chest** slot instead. It is its own top: there is nothing to roll up or down, and patches go only on the coat. Its pockets work like an ovve's. The **B-frack** is worn the same way.
+
+### The top
 
 Sneak and right-click the ovve to roll its top **up** or **down**. With the top up and nothing in your chest slot the sleeves show; a chestplate goes on over it as usual and hides the top until it comes off again. The top is not a separate item: it comes and goes with the ovve.
 
-## Storage
+### Storage
 
 The ovve is also a bundle. Click items onto it to fill it, in your inventory or straight onto its slot while you wear it; right-click and hold to empty it. It holds twice what a bundle does.
 
-## Ownership
+### Ownership
 
 An ovve becomes the property of the first player to pick it up. Somebody else's ovve will not go on you and nobody but you can sew on yours, so an ovve can be traded, but the design on it is its owner's.
 
 What you have sewn on is stored once for all the servers. Sew on one server, log into another wearing the same ovve; lose the item and a new ovve of that chapter shows your design again. Pockets and enchantments stay with the item; the look and the patches travel.
 
-## Enchantments
+### Enchantments
 
 An ovve takes six enchantments of its own, from the enchanting table and from loot books, and nothing else: no Unbreaking, no Mending, no Protection. Put your ovve in an enchanting table like any armor.
 
@@ -83,15 +87,15 @@ Keepsake | The ovve, pockets and all, stays with you when you die.
 Keyring | Put two tools in the pockets and the right one comes to your hand when you start mining, then goes back a moment after you stop. Not together with Ender Pockets.
 Curse of the Spilled Drink | Every drink comes back a little later, weaker, and the ovve drips now and then. Found in loot books and sold by [Punkphöz](/punkphoz/).
 
-## Shaderpacks
-
-Pink-black checker on your arms and legs? Your shaderpack has not been patched for ovves, or was patched before the latest update: patch the original pack again. Type `/ovvar shaders` to get the patcher.
-
-## Patches
+### Patches
 
 {{< main "Patches" >}}
 
 Place your ovve on an armor stand to sew [[patches]] onto it.
+
+## Shaderpacks
+
+Pink-black checker on your arms and legs? Your shaderpack has not been patched for ovves, or was patched before the latest update: patch the original pack again. Type `/ovvar shaders` to get the patcher.
 
 ## Commands
 

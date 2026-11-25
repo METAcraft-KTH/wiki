@@ -9,7 +9,7 @@ Introduced | 27 October 2026
 {{< /infobox >}}
 **Gold Gary Jr.** is an NPC at spawn, introduced on the second day of Season 6. Trading with him is the only way to increase the [[world border]] width.
 
-## Trades
+## Trading
 
 Gold Gary Jr. has one trade: 1 gold block for +1 [[world border]] diameter.
 

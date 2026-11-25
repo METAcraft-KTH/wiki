@@ -5,7 +5,9 @@ categories = ['Features', 'Items']
 +++
 The **hammer** turns blocks round without breaking them.
 
-## Crafting
+## Obtaining
+
+### Crafting
 
 {{< image src="booklet/recipe/hammer.png" caption="Hammer crafting recipe" width="250" align="none" >}}
 

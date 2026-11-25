@@ -9,9 +9,13 @@ Spawns | Near players, like a wandering trader
 Currency | Emeralds
 Introduced | Museum Showdown 2026 (16 November 2026)
 {{< /infobox >}}
-**Punkphöz** is a wandering trader who turns up now and then near players, alongside the usual wandering traders (he never replaces one). He is the only way to get the newer chapters' [[ovve|ovvar]] in survival. He replaced the [[Phoz|Phöz]] at spawn.
+**Punkphöz** is a wandering trader. He is the only way to get the newer chapters' [[ovve|ovvar]] in survival. He replaced the [[Phoz|Phöz]] at spawn.
 
-## Trades
+## Spawning
+
+He turns up now and then near players, alongside the usual wandering traders. He never replaces one.
+
+## Trading
 
 What he sells is picked anew each visit, for emeralds:
 

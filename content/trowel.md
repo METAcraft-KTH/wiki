@@ -9,7 +9,9 @@ Craftable | Yes
 {{< /infobox >}}
 The **trowel** lays blocks for you, at random.
 
-## Crafting
+## Obtaining
+
+### Crafting
 
 {{< image src="booklet/recipe/trowel.png" caption="Trowel crafting recipe" width="250" align="none" >}}
 

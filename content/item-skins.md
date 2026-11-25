@@ -12,7 +12,9 @@ Tradeable | Boxes and tokens, not claimed skins
 {{< /infobox >}}
 **Item skins** change how your tools and armor look. The most common ones are **hats**, which go on helmets. A skin only changes the look: the item works exactly as before.
 
-## Getting one
+## Obtaining
+
+### Skin Boxes
 
 A skin comes as a **Skin Token**. Right-click the token and confirm to claim it: the skin is yours and the token is used up.
 
@@ -24,7 +26,13 @@ Now and then a zombie, husk, zombie villager, skeleton, stray, bogged, parched o
 
 After a hat mob spawns, the chunks around it are much less likely to spawn another one for a few hours, so go somewhere new to find more.
 
-## Applying a skin
+### Events
+
+Some skins are prizes and can't be got from a box. The [Museum Showdown 2026](/patch-notes/#museum-showdown-2026) collection event gives legendary hats to its top five collectors and a hat to everyone who took part.
+
+## Usage
+
+### Applying
 
 `/itemskins` opens the **Skin Menu**: every skin on the server, yours in color and the rest greyed out. Put a skin on any item of the right kind you carry: a sword, a pickaxe, a helmet and so on. A skin is on one item at a time.
 
@@ -34,16 +42,12 @@ Don't want a skin any more? **Extract** it in the Skin Menu and it turns back in
 
 The Skin Menu also has a "How skins work" book with the rest.
 
-## Rarity
-
-A skin's name is colored by its rarity: **common** (white), **uncommon** (green), **rare** (blue) and **legendary** (gold). In a Skin Box, rarer skins are less likely to roll.
-
-## Hats
+### Dyeing hats
 
 Many hats can be dyed like leather armor, in the crafting grid. A cauldron washes the dye off.
 
-## Event skins
+## Rarity
 
-Some skins are prizes and can't be got from a box. The [Museum Showdown 2026](/patch-notes/#museum-showdown-2026) collection event gives legendary hats to its top five collectors and a hat to everyone who took part.
+A skin's name is colored by its rarity: **common** (white), **uncommon** (green), **rare** (blue) and **legendary** (gold). In a Skin Box, rarer skins are less likely to roll.
 
 {{< navbox "season6" >}}

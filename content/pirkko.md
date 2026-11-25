@@ -21,30 +21,32 @@ A **Pirkko** is a small, weak hostile mob that lives in dark caves. When killed,
 
 ## Spawning
 
-Pirkkos spawn in dark caves below sea level in the Overworld, in groups of one to three. They don't spawn in the deep dark or under mushroom fields.
+Pirkkos spawn in dark caves below sea level in the Overworld, in groups of one to three. They don't spawn in the deep dark or under mushroom fields. On Peaceful they still spawn, but only wander.
 
-A Pirkko chases players within 24 blocks and bites for half a heart, however hard the difficulty. On Peaceful it still spawns, but only wanders.
-
-A Pirkko that nobody has named, leashed or seated wanders off after ten minutes and leaves nothing behind.
-
-## Colors
+## Variants
 
 Every Pirkko has one of 18 colors: the 16 vanilla dye colors, plus **Cerise** and **Laser Violet** from the new [[dyes]].
 
 The color follows how warm the land above the cave is. Frozen places mostly give Cerise and blues, temperate ones a mix, and deserts and badlands mostly Laser Violet, red and orange. One Pirkko in ten ignores the temperature and can be any color.
 
-## Heads
+## Drops
 
 Kill one and it drops exactly one Pirkko head in its color; Looting gives no more. Place it on a floor or a wall like a mob head, or put it in an item frame to show the whole Pirkko.
 
 Pirkko heads can't be crafted or dyed, so the only way to collect a color is to find and kill a Pirkko of that color.
 
-## Banner pattern
+## Behavior
 
-There is also a Pirkko [[banner patterns|banner pattern]].
+A Pirkko chases players within 24 blocks and bites for half a heart, however hard the difficulty.
+
+A Pirkko that nobody has named, leashed or seated wanders off after ten minutes and leaves nothing behind.
 
 ## Advancements
 
 There are advancements for killing Pirkkos.
+
+## See also
+
+* The Pirkko [[banner patterns|banner pattern]]
 
 {{< navbox "season6" >}}

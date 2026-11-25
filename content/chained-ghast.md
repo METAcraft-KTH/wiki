@@ -11,13 +11,15 @@ Crew | Spear piglin, [[Piglin Grenadier]], crossbow piglin, [[Piglin Drummer]]
 {{< /infobox >}}
 The **Chained Ghast** is a ghast with a crewed deck hung under it. It only spawns during [[Rift Raids]].
 
-## Tells
+## Spawning
 
-A ghast in a harness, with a wooden deck hung on chains about 6 blocks below it and four piglins on the deck. Large rifts send one in wave 5 and two in wave 7.
+Large [[Rift Raids|rifts]] send one in wave 5 and two in wave 7.
 
-It floats no more than 20 blocks above the ground and goes after players below it.
+## Behavior
 
-## The crew
+It is a ghast in a harness, with a wooden deck hung on chains about 6 blocks below it and four piglins on the deck. It floats no more than 20 blocks above the ground and goes after players below it.
+
+### Crew
 
 Each piglin on the deck has a job. Shoot or hit them one at a time: kill one and its job stops.
 
@@ -26,7 +28,7 @@ Each piglin on the deck has a job. Shoot or hit them one at a time: kill one and
 * **The crossbow piglin** shoots a bolt every 3 seconds at a player it can see within 24 blocks. You hear it load a second before.
 * **The [[Piglin Drummer|drummer]]** drums with every other drummer, and its big beat buffs the piglins on the deck and on the ground below. It can't knock you back from up there.
 
-## One attack at a time
+### Attacking
 
 It makes one attack at a time, so you can see each one coming.
 
@@ -38,7 +40,7 @@ It makes one attack at a time, so you can see each one coming.
 
 Without the Grenadier, or with no room above you for the ghast and its deck, it skips the runs and only shoots fireballs, at most every 10 seconds.
 
-## Weaknesses
+### Weaknesses
 
 The deck is cover: the crew take only 60% of the damage, and arrows from below hit the wood. Shoot from the side, or hit them while the deck is low on a run: that is when it is open to attack. The ghast itself has only a ghast's health.
 

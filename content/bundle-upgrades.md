@@ -5,6 +5,19 @@ categories = ['Features', 'Items']
 +++
 **Bundle upgrades** increase how much a bundle can hold. They were added in the [[patch-notes|Bigger Bundles, Bigger Bets]] update.
 
+
+
+## Obtaining
+
+### Crafting
+
+Each upgrade is made with a bundle upgrade template.
+
+{{< image src="bundle_upgrade_template_tier2_recipe.png" caption="Tier 2 bundle upgrade template recipe" width="300" align="none" >}}
+
+{{< image src="bundle_upgrade_template_tier3_recipe.png" caption="Tier 3 bundle upgrade template recipe" width="300" align="none" >}}
+
+
 ## Tiers
 
 | Tier | Capacity |
@@ -16,13 +29,5 @@ categories = ['Features', 'Items']
 {{< image src="bundle_tier2.png" caption="A tier 2 bundle" width="300" align="none" >}}
 
 {{< image src="bundle_tier3.png" caption="A tier 3 bundle" width="300" align="none" >}}
-
-## Crafting
-
-Each upgrade is made with a bundle upgrade template.
-
-{{< image src="bundle_upgrade_template_tier2_recipe.png" caption="Tier 2 bundle upgrade template recipe" width="300" align="none" >}}
-
-{{< image src="bundle_upgrade_template_tier3_recipe.png" caption="Tier 3 bundle upgrade template recipe" width="300" align="none" >}}
 
 {{< navbox "season6" >}}

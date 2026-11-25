@@ -10,13 +10,21 @@ Craftable | Yes
 {{< /infobox >}}
 A **canvas** is a 16×16 picture you paint one pixel at a time, right where it hangs. Hang several side by side for a bigger picture.
 
-## Crafting
+## Obtaining
+
+### Crafting
 
 {{< image src="booklet/recipe/canvas.png" caption="Canvas crafting recipe" width="250" align="none" >}}
 
-A paper in the middle, eight sticks round it. Right-click any block face to hang it: on a wall, on the floor or on the ceiling.
+A paper in the middle, eight sticks round it.
 
-## Painting
+## Usage
+
+### Placing
+
+Right-click any block face to hang it: on a wall, on the floor or on the ceiling.
+
+### Painting
 
 Right-click the hanging canvas with:
 
@@ -28,11 +36,11 @@ Hold a brush in your main hand and the dye or tool in your off hand to paint a 3
 
 The new [[dyes]] paint in the nearest color a canvas has; RGB gives confetti in all its colors.
 
-## Keeping a shade
+### Keeping a shade
 
 Right-click a canvas with a brush to copy a pixel's exact color onto the brush, handy for the random colors of RGB dye. The colored brush paints that shade back. Sneak and right-click a pixel to pick another one, or sneak and right-click anything else to wipe the color. A colored brush in your off hand paints 3×3 with it.
 
-## Finishing touches
+### Finishing touches
 
 Craft the canvas together with:
 
@@ -41,7 +49,7 @@ Craft the canvas together with:
 * shears to **cut** it, so its unpainted pixels are see-through, paper to undo that;
 * a dye to give it a background color, a water bucket to wash that out.
 
-## Copying
+### Copying
 
 Craft a painted canvas with one or more empty canvases and you get a copy of the picture for each.
 

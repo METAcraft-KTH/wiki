@@ -12,9 +12,9 @@ Weapon | Golden axe
 {{< /infobox >}}
 The **Piglin General** is the boss of a large [[Rift Raids|Rift Raid]]. He bears a striking resemblance to General Chungus from *A Minecraft Movie*.
 
-## Combat
+## Spawning
 
-It comes in the last wave of a large rift, with 300 health (six times a brute's) and armor nearly a diamond set's. It has a red boss bar of its own.
+It comes in the last wave of a large rift.
 
 ## Drops
 
@@ -24,5 +24,9 @@ Killed by a player, it drops:
 * a Blaze Rod
 * 4 to 8 Nether Quartz
 * one time in four, a Piglin Banner Pattern
+
+## Behavior
+
+It has 300 health (six times a brute's) and armor nearly a diamond set's. It has a red boss bar of its own.
 
 {{< navbox "season6" >}}

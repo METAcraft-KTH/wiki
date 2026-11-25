@@ -11,23 +11,27 @@ Explodes | No
 {{< /infobox >}}
 A **void anchor** catches you when you fall into the End's void. Space cracks open below you, you sink into the crack, and you step out next to your anchor. It only works in the End.
 
-## Crafting
+## Obtaining
+
+### Crafting
 
 {{< image src="booklet/recipe/void_anchor.png" caption="Void anchor crafting recipe" width="250" align="none" >}}
 
 Like a respawn anchor, with eyes of ender where the glowstone goes.
 
-## Charging it
+## Usage
+
+### Charging
 
 Right-click it with an end crystal to add a charge, up to four; the lights on its sides show how many. Each rescue uses one. A dispenser with end crystals in it charges the anchor it faces.
 
-## Binding to it
+### Binding
 
 Right-click it with an empty hand. You are bound to one anchor at a time, so binding another moves you over. Friends can bind to the same anchor and share its charges.
 
 An empty anchor binds you too, but tells you it needs charging: it catches nobody until it has a charge. Unlike a respawn anchor, it never explodes and never sets your spawn.
 
-## Falling
+### Falling
 
 {{< image src="booklet/qol/rift.png" caption="The crack in space" width="200" >}}
 

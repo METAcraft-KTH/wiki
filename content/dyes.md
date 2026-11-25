@@ -30,7 +30,9 @@ The flowers can only be acquired from **Sniffers**. A sniffer digging in grass o
 
 {{< image src="booklet/recipe/cerise_dye.png" caption="Cerise Dye" width="250" align="none" >}}
 
-## What they color
+## Usage
+
+### Dyeing
 
 * Wool, carpet, beds, candles, banners and shields
 * Terracotta, glazed terracotta, concrete and concrete powder
@@ -58,11 +60,11 @@ Harness | {{< sprite "moredyes/cerise_harness.png" "Cerise Harness" >}} | {{< sp
 
 The RGB Glazed Terracotta {{< sprite "moredyes/rgb_glazed_terracotta.png" "RGB Glazed Terracotta" >}} has its own pattern; the rest of RGB's blocks cycle through the rainbow.
 
-## RGB
+### RGB
 
 Blocks, banners and dyed armor in RGB cycle through the rainbow. Dye armor with RGB on its own: mixed with other dyes it won't take, and a plain dye on RGB armor replaces it. A happy ghast's harness and a llama's carpet wear red, green and blue stripes, and a canvas gets confetti in all its colors. Where a color can't move, RGB is red: fireworks, sign text and maps.
 
-## Banners and shields
+### Banners and shields
 
 {{< image src="booklet/recipe/cerise_banner.png" caption="Cerise Banner" width="250" align="none" >}}
 
